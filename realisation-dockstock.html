@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet DockStock - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html" class="active">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html" class="active">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">PROJET <span class="text-gradient">DOCKSTOCK</span></h1>
+            <p class="page-description">Infrastructure virtualisée et conteneurisée pour la gestion de services agiles.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container delay-1">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <p>Au cours de ma seconde année de Bachelor AIS (Administrateur d’Infrastructures Sécurisées) au sein du Groupe AEN à Agen, j’ai pu réaliser ce projet d'envergure.</p>
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Introduction :</h2>
+                    <p>Cette réalisation a été effectuée dans un cadre pédagogique visant à nous immerger dans les réalités du métier d'administrateur système et réseau. Durant ma formation, chaque semestre est rythmé par des projets informatiques confiés à des groupes d’étudiants. L'objectif principal est de nous professionnaliser en nous apprenant à délivrer une solution technique complète, répondant scrupuleusement à un cahier des charges fourni par un commanditaire externe ou interne. Ces projets sont le terrain idéal pour appliquer, tester et approfondir les connaissances théoriques apprises lors des cours magistraux.</p>
+                    <p>Durant l’intégralité du semestre S4 de la formation, s’étalant de mars à juillet 2023, le projet informatique qui m’a été confié s’intitulait « DockStock ». La mission de mon groupe était complexe : nous devions concevoir, installer physiquement et configurer une infrastructure virtualisée robuste, dont la fonction principale était de permettre la création, l'hébergement et la destruction rapide de conteneurs applicatifs Docker. Ce projet exigeait non seulement une maîtrise technique de la virtualisation, mais aussi une vision globale de l'architecture réseau et de la sécurité des systèmes d'information. Nous avions pour ambition de concevoir une infrastructure aussi résiliente que possible, capable de supporter des pannes matérielles sans interruption de service pour l'utilisateur final.</p>
+                </div>
+
+                <!-- Contexte, Objectifs -->
+                <div class="content-block">
+                    <h2><i class="fas fa-bullseye" style="margin-right: 1rem; color: var(--clr-primary);"></i> Contexte, Objectifs</h2>
+                    <p>Le projet DockStock s'articulait autour de trois axes majeurs. Le premier objectif était technique : il s'agissait de maîtriser toutes les étapes de la mise en place d’une infrastructure virtualisée, de la phase de conception théorique du plan d'adressage réseau à la configuration fine des hyperviseurs de type 1. Le deuxième objectif portait sur la conteneurisation, une technologie devenue incontournable dans le paysage informatique actuel. Nous devions prouver notre capacité à déployer et gérer des conteneurs Docker de manière isolée et sécurisée. Enfin, le troisième objectif était méthodologique : nous former à la gestion de projet en équipe, à la tenue de délais serrés et à la satisfaction d'un client (le commanditaire) malgré des contraintes matérielles fortes.</p>
+                    <p>Sur le plan humain, j’ai intégré un groupe de cinq étudiants composés de Nicolas CLUZEAU, Gaëlle FOLIO, Valentin LHUISSIER, Baptiste RIVA et moi-même. Une particularité importante de notre équipe résidait dans le fait que Valentin n’était pas présent physiquement sur le site d’Agen, mais sur celui de Dax. Cette configuration hybride nous a obligés à mettre en place des outils de collaboration à distance performants et a ajouté une difficulté supplémentaire en termes de communication et de synchronisation des tâches techniques sur le matériel physique présent à Agen.</p>
+                    <p>Le projet était supervisé par deux enseignants. Le « commanditaire » jouait le rôle du client final, exprimant ses besoins et validant nos choix techniques lors de chaque jalon. Le « suiveur », quant à lui, agissait comme un mentor qualité, s’assurant que toutes nos productions administratives (e-mails, comptes-rendus, supports de présentation) respectaient les standards professionnels attendus en entreprise.</p>
+                    <p>D'un point de vue technique, nous devions composer avec deux contraintes majeures imposées par l'école. Premièrement, l'utilisation obligatoire de Docker pour la partie applicative et de VMware pour la partie virtualisation (les licences Enterprise Plus nous étant fournies). Deuxièmement, l'obligation d'utiliser exclusivement des solutions gratuites ou Open Source pour tout le reste de l'infrastructure (systèmes d'exploitation, pare-feu, outils de gestion). Ce projet représentait un enjeu crucial pour notre cursus, étant l'un des piliers de la validation de notre seconde année de Bachelor. Le risque principal était lié à la vétusté potentielle du matériel de récupération utilisé, pouvant entraîner des pannes physiques lors des démonstrations, sans oublier la nécessité absolue de ne pas perturber le réseau de l'école auquel nous étions connectés.</p>
+                </div>
+
+                <!-- Organisation -->
+                <div class="content-block">
+                    <h2><i class="fas fa-calendar-alt" style="margin-right: 1rem; color: var(--clr-primary);"></i> Organisation</h2>
+                    <p>Pour organiser ce projet sur quatre mois, nous avons adopté la méthode Agile, plus précisément le framework Scrum. Le mois de mars a été consacré exclusivement à la phase d'avant-projet. Durant cette période, nous avons forgé l'identité visuelle de notre groupe : nom du projet, slogan accrocheur, création d'un logo et définition d'une charte graphique pour uniformiser nos livrables. Sur le plan opérationnel, nous avons élaboré notre « Product Backlog », un inventaire exhaustif des fonctionnalités attendues découpées en « User Stories ». Chaque session de travail était planifiée sous forme de sprints de durée fixe.</p>
+                    <p>Le projet a été rythmé par plusieurs étapes de validation officielles devant un jury d'enseignants :</p>
+                    <ul>
+                        <li>Présentation d'avant-projet : Pour valider notre structure de groupe et notre compréhension du besoin.</li>
+                        <li>Point d’étape : Un mois après le lancement, pour démontrer l'avancement du premier sprint et ajuster l'architecture si nécessaire.</li>
+                        <li>Présentation de recette : Une phase de tests intensifs où nous devions prouver au commanditaire que l'infrastructure répondait à 100 % des exigences.</li>
+                        <li>Présentation finale : Soutenance globale devant l'ensemble des promotions de l'école.</li>
+                        <li>Le Techday : Point d'orgue du projet, cette journée nous permettait d'exposer notre travail sur un stand dédié. C'était l'occasion de confronter notre réalisation à des visiteurs extérieurs et des professionnels de l'informatique, ce qui s'est avéré être un excellent levier pour nos recherches d'alternance.</li>
+                    </ul>
+                    <p>Pour fluidifier le travail au quotidien, nous tenions un « Daily Scrum » (mêlée journalière) au début de chaque séance. Ce rituel nous permettait d'identifier les tâches accomplies, les objectifs du jour et les éventuels points de blocage. Nous utilisions l'outil Trello pour la gestion visuelle des tâches et Microsoft Teams comme plateforme centrale pour le stockage de la documentation (comptes-rendus, conventions, schémas techniques) et pour les réunions en visioconférence avec notre coéquipier distant.</p>
+                </div>
+
+                <!-- Initialisation du projet DockStock -->
+                <div class="content-block">
+                    <h2><i class="fas fa-rocket" style="margin-right: 1rem; color: var(--clr-primary);"></i> Initialisation du projet DockStock</h2>
+                    <p>Une fois la phase théorique validée, nous sommes passés à la conception de l'architecture. Nous avons passé un temps considérable à dessiner notre schéma réseau, car chaque choix technique initial avait des répercussions sur la sécurité et la résilience finale. La commande du matériel auprès du directeur du campus a été un moment de négociation, car nous devions composer avec un stock limité de machines physiques.</p>
+                    <p>L'architecture finale retenue se composait de cinq éléments clés :</p>
+                    <ul>
+                        <li>Un ordinateur dédié au rôle de pare-feu sous PFSense, servant de passerelle sécurisée entre notre LAN et le réseau extérieur (WAN).</li>
+                        <li>Deux ordinateurs configurés comme hyperviseurs sous VMware ESXi 6.7, constituant notre socle de virtualisation.</li>
+                        <li>Un ordinateur sous Windows Server 2019 hébergeant l'application VMware vCenter Server, cerveau de notre cluster.</li>
+                        <li>Un switch 5 ports pour l'interconnexion physique.</li>
+                        <li>Un câblage RJ45 structuré pour assurer la connectivité.</li>
+                    </ul>
+                </div>
+
+                <!-- Préparation de l'infrastructure et déploiement -->
+                <div class="content-block">
+                    <h2><i class="fas fa-cogs" style="margin-right: 1rem; color: var(--clr-primary);"></i> Préparation de l'infrastructure et déploiement</h2>
+                    <p>Le déploiement a commencé par la préparation des supports d'installation. J’étais personnellement chargé, en binôme, de la mise en place de la couche virtualisation. Nous avons créé des clés USB bootables pour ESXi et Windows Server. La première étape a été l'installation des hyperviseurs sur les machines physiques. Après avoir configuré l'adressage IP statique (indispensable pour des serveurs d'infrastructure), nous avons validé leur accessibilité via l'interface web de management.</p>
+                    <p>L'étape suivante a été l'installation du serveur Windows et du rôle DNS. La mise en place de vCenter a été particulièrement technique : nous avons opté pour un déploiement de type « Tiny », le plus léger, car les ressources matérielles de nos ordinateurs de récupération ne permettaient pas de faire tourner des instances plus lourdes. Une fois vCenter opérationnel, nous avons intégré les deux hôtes ESXi dans un cluster unique. Grâce aux licences Enterprise Plus, nous avons pu activer et configurer la Haute Disponibilité (HA) et le DRS (Distributed Resource Scheduler). Pour tester la résilience, nous avons simulé une panne matérielle en éteignant l'un des serveurs : la machine virtuelle Debian 11 de test a automatiquement basculé sur le second serveur sans aucune perte de données, validant ainsi notre objectif de résilience.</p>
+                    <p>En parallèle, j'ai supervisé l'installation du pare-feu PFSense. Le défi ici était matériel : le PC ne disposait que d'une seule carte réseau. J'ai donc utilisé un adaptateur USB vers RJ45 pour créer la seconde interface nécessaire. J'ai configuré les règles de filtrage en appliquant scrupuleusement le principe du moindre privilège. L'idée était simple mais efficace : bloquer tout ce qui n'est pas explicitement autorisé. Nous avons notamment interdit tout accès depuis le réseau de l'école vers les interfaces de management de nos serveurs, ne laissant passer que les flux web nécessaires vers la future zone de production Docker.</p>
+                    <p>La dernière phase technique a été le déploiement de la couche conteneurisée. Sur une VM Debian 11 propre, nous avons installé le moteur Docker et l'outil Docker-compose. Pour faciliter l'administration quotidienne et les démonstrations au client, nous avons ajouté Portainer, un outil de gestion graphique accessible via navigateur web. Cela nous a permis de déployer rapidement une stack LAMP (Linux, Apache, MySQL, PHP) via un seul fichier .yaml, illustrant parfaitement l'agilité apportée par les conteneurs.</p>
+                </div>
+
+                <!-- Finalisation du projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-check-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Finalisation du projet</h2>
+                    <p>Lors des dernières réunions de suivi, notre commanditaire a souhaité complexifier l'infrastructure en demandant l'ajout de VLAN (Virtual Local Area Network). L'objectif était de séparer logiquement les flux de management (vCenter, ESXi) des flux de production (Conteneurs Docker) pour augmenter le niveau de sécurité. Malheureusement, les VLAN n'étaient pas une technologie que nous maîtrisions à ce stade du cursus. Malgré nos efforts d'auto-formation, les contraintes de temps et la complexité d'implémentation sur le matériel physique nous ont empêchés de stabiliser cette fonctionnalité avant la date de livraison. Nous avons donc fait le choix de livrer une infrastructure "à plat" mais parfaitement sécurisée par nos règles de pare-feu.</p>
+                    <p>Nous avons clôturé le projet par la production d'un dossier documentaire massif, comprenant une documentation technique pour l'équipe réseau, une documentation administrateur pour la maintenance (incluant tous les secrets et mots de passe), et une documentation utilisateur simplifiée pour la création de conteneurs sur Portainer. Ces documents ont été imprimés, reliés et présentés lors du Techday.</p>
+                </div>
+
+                <!-- Perspective d’avenir sur le projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-magic" style="margin-right: 1rem; color: var(--clr-primary);"></i> Perspective d’avenir sur le projet</h2>
+                    <p>Bien que cette infrastructure fût éphémère et démantelée à la fin du semestre pour recyclage matériel, elle constitue une preuve de concept (PoC) solide pour n'importe quelle petite ou moyenne entreprise souhaitant se lancer dans l'hébergement de services agiles. L'évolution naturelle d'un tel projet serait l'intégration de la segmentation réseau par VLAN dès la conception initiale et l'utilisation d'outils d'automatisation (Ansible, Terraform) pour déployer l'infrastructure de manière reproductible. De plus, pour une mise en production réelle, le passage vers un orchestrateur comme Kubernetes permettrait de gérer des montées en charge bien plus importantes que Docker-compose.</p>
+                </div>
+
+                <!-- Ce que je retiens du projet ! -->
+                <div class="content-block">
+                    <h2><i class="fas fa-lightbulb" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ce que je retiens du projet !</h2>
+                    <p>Ce projet DockStock a été une expérience fondatrice dans mon parcours d'administrateur. C'est la première fois que j'avais la responsabilité complète d'une infrastructure physique, de la première vis du rack à la dernière ligne de code du serveur web. J'ai énormément appris sur la suite VMware et sur la rigueur nécessaire à la sécurisation d'un réseau.</p>
+                    <p>La difficulté majeure a été la communication avec notre coéquipier distant et la gestion des imprévus matériels, ce qui a renforcé ma capacité d'adaptation et mon autonomie. Avec le recul, je regrette de ne pas avoir pu mettre en place les VLAN, mais cet échec m'a poussé à approfondir ce sujet par la suite. Je sors de ce projet fier d'avoir livré une solution fonctionnelle, documentée et résiliente, validée par des professionnels lors du Techday. Ce travail a été le socle de ma réussite pour ma seconde année et a grandement facilité l'obtention de mon alternance actuelle.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="realisations.html" class="btn-secondary">Retour aux réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html" class="active">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

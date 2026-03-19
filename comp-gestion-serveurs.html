@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Serveurs - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html" class="active">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html" class="active">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">GESTION DES <span class="text-gradient">SERVEURS</span></h1>
+            <p class="page-description">Maintenir des infrastructures performantes, sécurisées et intégrées.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma définition</h2>
+                    <p>En informatique, La gestion des serveurs est le socle du métier d’architecte. Un serveur ne doit pas seulement être "allumé", il doit être performant, sécurisé et surtout parfaitement intégré à l'écosystème de l'entreprise. Pour moi, gérer un serveur, c’est s’assurer qu’il remplit son rôle sans faille tout en étant capable de rendre des comptes sur son état de santé à tout moment.</p>
+                </div>
+
+                <!-- Mes éléments de preuve -->
+                <div class="content-block">
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes éléments de preuve</h2>
+                    <p>Lors de ma deuxième année à l'ESIEA, j'ai conçu et mis en place une infrastructure complète. Ce projet m'a permis de toucher à tout le cycle de vie d'un serveur : de l'installation du système d'exploitation à la configuration des rôles (Active Directory, DNS, DHCP). J'ai notamment réalisé la migration de serveurs Windows, en passant de versions anciennes à Windows Server 2022. L'enjeu était de conserver l'intégrité des données et des services tout en modernisant l'infrastructure pour la rendre plus robuste.</p>
+                    <p style="margin-top: 1rem;">Dans mon expérience professionnelle, j'ai franchi un palier en termes de rigueur. Administrer des serveurs en production demande une attention constante à la sécurité. J'ai pour mission d'exécuter des scripts d'automatisation et de maintenance, mais jamais à l'aveugle : chaque script est vérifié pour agir en toute sécurité sur le parc. Un point essentiel de mon travail est la gestion des logs. Je vérifie systématiquement que chaque serveur communique correctement avec le SOC (Security Operations Center). Si un serveur ne remonte pas ses journaux d'événements, il devient un angle mort pour la sécurité. Je m'assure donc que les flux sont ouverts et que les agents de collecte fonctionnent parfaitement. Cette visibilité est la clé pour détecter une intrusion ou une panne avant qu'elle ne devienne critique.</p>
+                </div>
+
+                <!-- Mon autocritique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique</h2>
+                    <p>Sur la gestion des serveurs, je me considère au niveau « Confirmé ». Je maîtrise les environnements Windows et Linux et je sais comment administrer un parc de manière structurée. Je suis particulièrement attentif à la sécurité : un serveur bien géré est un serveur que l'on sait surveiller.</p>
+                    <p style="margin-top: 1rem;">Je souhaite encore progresser sur l'optimisation des performances à grande échelle. Maîtriser un serveur est une chose, mais savoir accorder finement les ressources de dizaines de machines pour qu'elles travaillent ensemble sans gaspillage est l'étape suivante que je veux franchir.</p>
+                </div>
+
+                <!-- Mon Évolution et Perspectives -->
+                <div class="future-vision">
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Mon Évolution et Perspectives</h2>
+                    <p>Mon projet professionnel est de devenir Architecte Systèmes et Réseaux. Dans ce rôle, je devrai concevoir des parcs de serveurs capables de supporter des charges de travail critiques.</p>
+                    <p style="margin-top: 1rem;">Je vais continuer de me former et de développer mes compétences tout au long de ma carrière, car je suis convaincu que la maîtrise des infrastructures ne doit jamais reposer sur des acquis figés. Je compte faire de la veille informatique constante un véritable levier stratégique pour ma progression.</p>
+                    <p style="margin-top: 1rem;">Dans un secteur technologique qui se réinvente sans cesse, cette démarche me permettra d'anticiper les ruptures techniques et d'être une force de proposition sur les solutions de demain. En restant à l'affût des dernières avancées, je serai capable de prévoir les évolutions nécessaires bien avant qu'elles ne deviennent des points de blocage, garantissant ainsi une longueur d'avance, une performance optimale et une sécurité maximale à l'entreprise.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="competences-techniques.html" class="btn-secondary">Retour aux compétences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

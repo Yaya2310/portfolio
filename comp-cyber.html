@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Sécurité Informatique - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html" class="active">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html" class="active">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">LA SÉCURITÉ <span class="text-gradient">INFORMATIQUE</span></h1>
+            <p class="page-description">Rigueur, anticipation et protection systématique des infrastructures.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma définition</h2>
+                    <p>Dans le monde de l’infrastructure, la sécurité ne se résume pas à l'installation d'un pare-feu ou d'un antivirus. C’est avant tout une question de rigueur, d’anticipation et de cohérence entre la configuration technique et la protection des données. Que ce soit pour protéger une base de données client ou assurer la continuité d'un service critique, la sécurité est souvent ce qui fait la différence entre une entreprise résiliente et une organisation vulnérable. J’ai très tôt compris que cette compétence est le pilier central du métier d’architecte. C’est en pratiquant la sécurisation sur le terrain, face à des menaces réelles ou simulées, que j’ai pu développer ce réflexe de protection systématique.</p>
+                </div>
+
+                <!-- Mes éléments de preuve -->
+                <div class="content-block">
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes éléments de preuve</h2>
+                    <p>Depuis mes premiers pas à l’école ESIEA, j’ai eu l’occasion de participer à de nombreux projets techniques, et c’est par ce biais que j’ai commencé à intégrer la sécurité dans mon travail. Chaque projet a été une occasion d’apprendre à identifier des vulnérabilités, à restreindre des accès et à surveiller des flux. Les TP répétés sur l'administration système m'ont aidé à comprendre que la sécurité commence par une configuration propre. Ce sont ces expériences, combinées à mes projets d'infrastructure sécurisée, qui m’ont permis de faire évoluer mes compétences de façon concrète.</p>
+                    <p style="margin-top: 1rem;">Un projet en particulier m’a beaucoup fait progresser : la migration de serveurs Windows lors de ma deuxième année. Le défi était de passer de versions anciennes à Windows Server 2022 sans créer de failles de sécurité. Il a fallu non seulement transférer les données, mais surtout appliquer ce qu'on appelle le "Hardening" (durcissement) : désactiver les services inutiles, durcir les politiques de mots de passe et vérifier que les droits d'accès n'étaient pas trop larges. Ce projet m'a mis face à une réalité : une migration réussie est une migration qui ferme des portes aux attaquants tout en restant transparente pour les utilisateurs. C’était un travail de précision et de vérification constante.</p>
+                    <p style="margin-top: 1rem;">Le fait d'avoir travaillé sur la remontée d'informations vers un SOC (Security Operations Center) a également renforcé mes compétences. Dans ce rôle, j'ai dû m'assurer que chaque serveur de l'infrastructure envoyait correctement ses logs (journaux d'événements) aux équipes de surveillance. L'enjeu était de taille : si un serveur ne "parle" pas au SOC, il devient un angle mort où une intrusion peut passer inaperçue. J'ai dû apprendre à exécuter des scripts de configuration en toute sécurité et à vérifier minutieusement que les flux réseau autorisaient ces alertes critiques. Ce type de mission, où la moindre erreur peut aveugler la surveillance, m'a permis d'aiguiser ma rigueur et ma compréhension de la traçabilité.</p>
+                </div>
+
+                <!-- Mon autocritique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique</h2>
+                    <p>En matière de sécurité informatique, j’ai le niveau « Confirmé ». Je suis capable de mettre en place des infrastructures sécurisées, de gérer des pares-feux et de m'assurer que les systèmes sont surveillés. Aujourd'hui, je parviens à identifier les points critiques d'un réseau et à appliquer les bonnes pratiques pour limiter les risques d'attaque.</p>
+                    <p style="margin-top: 1rem;">Cependant, je suis conscient qu'il me manque encore de l'expérience pour prendre seul les meilleures décisions sur des infrastructures de très grande taille. La cybersécurité est un domaine qui change tous les jours, ce qui me pousse à rester humble et vigilant. Mon objectif est de passer d'une sécurité où je réagis aux problèmes à une sécurité où je les prévois dès la conception du réseau. Pour finir, si je sécurise efficacement un serveur ou un flux, j’aimerais encore progresser sur des aspects plus stratégiques, comme la gestion de crises cyber majeures ou le durcissement total de systèmes complexes.</p>
+                </div>
+
+                <!-- Mon évolution dans la compétence -->
+                <div class="future-vision">
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Mon évolution dans la compétence</h2>
+                    <p>Mon projet professionnel est de devenir architecte système et réseau, une compétence où la segmentation et la configuration précise des équipements de sécurité tel que le pare-feu sont essentielles pour ne pas interrompre le trafic légitime tout en bloquant les attaquants.</p>
+                    <p style="margin-top: 1rem;">Entre 2022 et 2025, j'ai obtenu quatre certifications Cisco à l'ESIEA : « CCNA: Introduction to Networks », « CCNA: Switching, Routing and Wireless Essentials », « Cisco CyberOps Associate » et « Cisco Network Security ». Ces formations m'ont permis de maîtriser la configuration système des équipements Cisco et les concepts clés de la cybersécurité.</p>
+                    <p style="margin-top: 1rem;">Je vais continuer de me former et de développer mes compétences tout au long de ma carrière. Je compte faire de la veille informatique constante un véritable levier stratégique. Dans un secteur technologique qui se réinvente sans cesse, cette démarche me permettra d'anticiper les ruptures techniques et d'être une force de proposition sur les solutions de demain. J’aimerais également poursuivre mon cursus en passant la certification CCNP Enterprise, qui est la suite logique de mon parcours, afin de garantir une performance et une sécurité maximale aux entreprises pour lesquelles je travaillerai.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="competences-techniques.html" class="btn-secondary">Retour aux compétences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

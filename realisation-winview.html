@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet WinVieW - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html" class="active">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html" class="active">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">PROJET <span class="text-gradient">WINVIEW</span></h1>
+            <p class="page-description">Migration et mise à niveau d'infrastructure Windows Server.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container delay-1">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <p>Au cours de mes études au sein du groupe AEN j’ai pu mener en équipe un projet de migration et de mise à niveau de serveurs Windows Server, réalisé dans le cadre d’un projet technique d’ingénierie système.</p>
+                    <p>Ce projet avait pour objectif d’étudier la faisabilité de la migration d’une infrastructure virtualisée vers une version plus récente de Windows Server.</p>
+                    <p>Qui a pu être réalisé en test pour valider la conformité et la faisabilité du projet.</p>
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Introduction</h2>
+                    <p>Cet accomplissement particulier a été réalisé dans le cadre d'un projet technique de ma formation en administration des systèmes et des infrastructures. Ce projet visait à explorer le processus de migration de nos infrastructures de serveurs virtualisés vers un modèle plus actuel de Windows Server. Les infrastructures informatiques de nombreuses entreprises utilisent des machines virtuelles hébergées sur des hyperviseurs. Ces systèmes sont devenus obsolètes avec le temps et nécessitent des mises à jour pour rester sécurisés, compatibles avec les nouvelles technologies et supportés par l'éditeur. Notre équipe a développé le projet WinVieW, une méthodologie pour migrer les machines virtuelles de Windows Server 2012 à Windows Server 2022 sans perdre de données ni de configurations. Il s'agit d'un projet POC (Proof of Concept). L'objectif était de tester l'approche de migration de manière isolée et bien contrôlée avant de la déployer sur l'ensemble de l'infrastructure.</p>
+                </div>
+
+                <!-- Objectifs -->
+                <div class="content-block">
+                    <h2><i class="fas fa-bullseye" style="margin-right: 1rem; color: var(--clr-primary);"></i> Objectifs</h2>
+                    <p>Le projet WinVieW a été motivé par plusieurs objectifs. Le premier objectif était de connaître et de maîtriser les étapes nécessaires pour migrer une infrastructure virtualisée. Cela impliquait principalement le transfert de machines virtuelles d'un serveur hyperviseur à un autre. Le deuxième objectif était de fournir une approche valide pour la mise à niveau du système d'exploitation Windows Server tout en conservant les données, les rôles de serveur et la configuration précédents. Enfin, ces migrations sont techniquement réalisables si l'on est capable de vérifier la compatibilité entre les différentes versions de Windows Server, et si l'on est capable de découvrir les restrictions techniques associées à ces migrations.</p>
+                </div>
+
+                <!-- Contexte technique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-cogs" style="margin-right: 1rem; color: var(--clr-primary);"></i> Contexte technique</h2>
+                    <p>L'infrastructure observée consistait en un environnement virtualisé fonctionnant sur Hyper-V en tant qu'hyperviseur. Les machines virtuelles fonctionnaient déjà sur Windows Server 2012, une version obsolète du système d'exploitation serveur de Microsoft. Nous voulions protéger et continuer à développer l'infrastructure, nous devions donc migrer ces machines vers Windows Server 2022, qui est plus récent et est maintenu par l'éditeur. Mais ce type de migration présente plusieurs limitations techniques. L'un des plus grands obstacles est, à notre connaissance, qu'il n'est pas possible de mettre à niveau certaines versions de Windows Server directement vers les versions les plus récentes. Cela a donc nécessité d'examiner les voies de migration compatibles pour surmonter toute perte de données et stabiliser le système.</p>
+                    <p>Le succès de ce projet a permis de valider une migration pour toutes les parties de l'infrastructure. Pour maintenir les systèmes informatiques à jour, aider à corriger les failles de sécurité et assurer la compatibilité avec les nouvelles applications et technologies, une migration réussie est essentielle. Cette étude de faisabilité visait également à minimiser les risques lors de futures migrations en identifiant les étapes et mesures essentielles à prendre.</p>
+                    <p>Plusieurs risques ont été identifiés tout au long du projet. Le premier concernait la perte de données lors de la migration ou de la mise à jour des machines virtuelles. Pour éviter ce problème, des sauvegardes et des instantanés ont été créés avant chaque flux de travail majeur. Un autre risque était qu'il ne soit pas compatible avec différentes versions de Windows Server. Étant donné que certaines mises à jour peuvent ne pas être réalisables, j'ai estimé qu'il serait crucial de suivre les instructions de Microsoft concernant les chemins de migration. Et puis il y avait le potentiel d'indisponibilité du service si une mise à jour échouait, ou si votre machine virtuelle devenait instable à la suite de votre migration.</p>
+                </div>
+
+                <!-- Organisation -->
+                <div class="content-block">
+                    <h2><i class="fas fa-calendar-alt" style="margin-right: 1rem; color: var(--clr-primary);"></i> Organisation</h2>
+                    <p>Pour organiser ce projet sur quatre mois, nous avons opté pour une approche Agile, plus précisément le cadre Scrum. Le mois de mars a été réservé à la phase de pré-projet, durant laquelle nous avons esquissé l'architecture de base du projet WinVieW. L'objectif principal était de migrer les machines virtuelles fonctionnant sur Windows Server 2012 vers une version plus récente du système d'exploitation. Nous avons également défini toutes les étapes nécessaires à la mise en œuvre de la preuve de concept, ainsi qu'à la structuration des tâches au sein de l'équipe.</p>
+                    <p>Sur le plan opérationnel, nous avons élaboré notre « Product Backlog », qui recense toutes les tâches et fonctionnalités à livrer pour la migration. Des « User Stories » ont été créées pour organiser et suivre ces tâches. À partir de cela, les travaux ont été divisés en sprints à durée fixe, permettant une planification progressive de l'ensemble du projet, allant de l'analyse de l'infrastructure existante à la migration des machines virtuelles et à la mise à niveau des systèmes d'exploitation.</p>
+                    <p>Le projet a comporté plusieurs étapes de validation officielles devant un panel de professeurs :</p>
+                    <ul>
+                        <li>Présentation d’avant-projet : Cette première présentation visait à évaluer le besoin et à présenter l'apparence générale du projet.</li>
+                        <li>Point d’étape : Environ un mois après le lancement, cette étape a permis de présenter l'avancement du premier sprint et de partager les premières expériences réalisées dans l'environnement de test.</li>
+                        <li>Recette : Cette phase a servi à démontrer que la migration avait été réalisée correctement, garantissant que toutes les machines virtuelles pouvaient être mises à jour tout en préservant leurs données et paramètres.</li>
+                        <li>Présentation finale : Une soutenance approfondie devant l'ensemble des promotions de l'école, permettant de montrer les résultats obtenus et la réalisation complète du projet.</li>
+                        <li>TechDay : Une journée dédiée à l'école où nous avons présenté notre projet sur un stand. Cet événement a offert l'opportunité de partager notre infrastructure et le processus de migration avec un public extérieur, comprenant étudiants et professionnels de l'informatique, tout en favorisant le réseautage avec des professionnels liés à l'apprentissage.</li>
+                    </ul>
+                    <p>Pour fluidifier le travail quotidien, nous avons instauré un Daily Scrum au début de chaque session. Au cours de ces courtes réunions quotidiennes, chaque membre de l'équipe partageait les réalisations de la session précédente, les objectifs de la session en cours et les défis rencontrés. Nous avons utilisé l'application Trello pour la gestion visuelle des tâches et le suivi des différentes User Stories. Microsoft Teams a également été employé comme plateforme centrale pour conserver la documentation du projet, incluant les comptes rendus de réunion, les documents techniques et les supports de présentation, tout en permettant l'organisation de visioconférences selon nos besoins.</p>
+                </div>
+
+                <!-- Étapes du projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-rocket" style="margin-right: 1rem; color: var(--clr-primary);"></i> Étapes du projet</h2>
+                    <h3>1. Migration des machines virtuelles</h3>
+                    <p>Le déplacement des machines virtuelles de l'ancien serveur hyperviseur vers un nouveau serveur a été son premier travail. Nous avons utilisé l'exportation de machines virtuelles de Hyper-V Manager pour ce faire. Cela implique de sélectionner une machine virtuelle puis le bouton « Exporter » pour copier tous ses fichiers vers un autre environnement, comme un magasin ou une unité de stockage externe (périphérique de stockage). Les fichiers exportés comprenaient :</p>
+                    <ul>
+                        <li>les fichiers de configuration de la machine virtuelle.</li>
+                        <li>les disques virtuels au format VHDX.</li>
+                        <li>toutes les instantanés.</li>
+                    </ul>
+                    <p>Après l'exportation, le contenu pouvait être déplacé vers le nouveau serveur.</p>
+
+                    <h3>2. Importation vers le nouveau serveur</h3>
+                    <p>L'étape suivante consistait à importer les machines virtuelles sur le nouveau serveur hyperviseur. L'assistant d'importation nous a permis de choisir le dossier contenant les fichiers exportés et de restaurer immédiatement la machine virtuelle. Lors de l'importation, les machines virtuelles étaient disponibles depuis la console de gestion du nouvel hyperviseur.</p>
+
+                    <h3>3. Mise à niveau du système d'exploitation</h3>
+                    <p>La dernière étape consistait à mettre à niveau le système d'exploitation des machines virtuelles. Mais nous avons rapidement constaté que nous avons rencontré un obstacle critique qui empêchait toute migration progressive de Windows Server 2012 à Windows Server 2022. Ce problème ne peut être résolu qu'avec une stratégie de migration intermédiaire. Les machines virtuelles ont d'abord été modifiées vers Windows Server 2019 puis vers Windows Server 2022.</p>
+                    <p>La mise à niveau a été effectuée à l'aide du support d'installation de Windows Server au format de fichier ISO. Celui-ci a été installé dans le lecteur virtuel de la machine et le programme d'installation a démarré. L'option que nous avons sélectionnée lors de l'installation était de sauvegarder les fichiers, les paramètres et les applications pour s'assurer que rien ne soit perdu. Avant chaque nouvelle mise à jour, nous avons créé un instantané de la machine virtuelle pour retracer le chemin vers l'état actuel de la machine en cas d'erreur. Une fois l'installation terminée, la VM a commencé son propre redémarrage et l'utilisation de la nouvelle version du système.</p>
+
+                    <h3>4. Vérifications et validation</h3>
+                    <p>De nombreuses vérifications ont eu lieu après la mise à jour des machines virtuelles. Sur le gestionnaire de serveur, nous avons vérifié la version du système d'exploitation et les rôles et services mis à jour restent opérationnels. Ces vérifications ont validé que la migration avait été efficace et que les données et la configuration qui ont contribué à l'amélioration ont été conservées.</p>
+                </div>
+
+                <!-- Conséquences du projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Conséquences du projet</h2>
+                    <p>Après avoir validé la procédure de migration sur une machine virtuelle de test, nous avons constaté que le processus était non seulement bon, mais également valable pour l'ensemble de l'infrastructure tout en gardant la configuration initiale du serveur. Ce travail de faisabilité a jeté les bases d'une manière transparente de migrer toutes les machines virtuelles vers la toute dernière version de Windows Server, une étape à la fois.</p>
+                </div>
+
+                <!-- Ce que je retiens du projet ! -->
+                <div class="content-block">
+                    <h2><i class="fas fa-lightbulb" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ce que je retiens du projet !</h2>
+                    <p>J'ai beaucoup appris sur l'administration système et la virtualisation. J'ai acquis un aperçu de la mise en œuvre de quelques-unes des différentes étapes nécessaires pour migrer une infrastructure de serveur, et de la nécessité cruciale de planifier les mises à niveau du système d'exploitation avec soin. Les meilleures pratiques consistent à créer une sauvegarde ou un instantané avant de réaliser une opération cruciale. En regardant en arrière, ce projet m'a appris que la préparation et la documentation des processus doivent être en place pour qu'une migration d'infrastructure réussisse. Grâce à cette étude de faisabilité, j'ai pu travailler avec une méthode solide pour moderniser un serveur backend tout en maintenant le service.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="realisations.html" class="btn-secondary">Retour aux réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html" class="active">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

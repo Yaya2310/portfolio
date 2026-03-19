@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migration vers Office 365 - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html" class="active">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html" class="active">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">MIGRATION VERS <span class="text-gradient">OFFICE 365</span></h1>
+            <p class="page-description">Transition technologique majeure vers le Cloud Microsoft.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container delay-1">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+
+                    <p>Au cours de mon alternance chez Crescendo Restauration, j'ai été chargé de piloter une transition technologique majeure : le passage de l'intégralité de nos comptes de messagerie et de nos outils bureautiques vers la solution Cloud Microsoft Office 365.</p>
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Introduction :</h2>
+                    <p>Tout a commencé par la réalisation d'un audit de l'infrastructure informatique. Les résultats étaient clairs : pratiquement tous nos sites utilisaient Microsoft Office 2010 en permanence. Si je suppose que cela ne dérangeait pas un citoyen lambda, c'était une bombe à retardement lorsque nous avons examiné l'informatique.</p>
+                    <p>Office 2010 était en fin de vie. Concrètement, cela signifiait que Microsoft ne proposait plus aucune mise à jour de sécurité, ce qui laissait nos postes de travail vulnérables aux cyberattaques modernes. De plus, l'interface traditionnelle et l'absence d'outils de travail en équipe affectaient la productivité des équipes tant au siège que dans les restaurants. Ma mission est devenue double : protéger notre environnement en faisant migrer tout le monde vers Office 365, et moderniser notre utilisation afin de bien transférer les données pour tous – les emails en particulier. Il ne s'agissait pas simplement d'installer un logiciel, mais de prévoir un plan pour que chaque gérant de restaurant puisse retrouver ses fichiers, archives et habitudes de travail le lendemain de l'intervention.</p>
+                </div>
+
+                <!-- Contexte et objectifs -->
+                <div class="content-block">
+                    <h2><i class="fas fa-bullseye" style="margin-right: 1rem; color: var(--clr-primary);"></i> Contexte et objectifs :</h2>
+                    <p>Choisir Office 365 implique de passer à un modèle SaaS (Software as a Service). C'est un changement de paradigme que nous n'avions pas auparavant. Non attaché dans le temps à une installation locale mais disposant d'outils hébergés qui sont constamment à jour et accessibles depuis n'importe quel poste de travail où une connexion Internet permet l'accès. Ce projet avait quatre objectifs prioritaires que nous avons établis comme suit :</p>
+                    <ul>
+                        <li><strong>Explosion des capacités de stockage :</strong> C'était le principal point de douleur. Les boîtes aux lettres étaient limitées sous Office 2010 à 2 Go. Ils perdaient leur temps à supprimer des messages ou simplement à préparer des fichiers d'archives locaux (.pst) pour créer des espaces qui seraient extrêmement problématiques en cas de crash d'un disque dur. Nous sommes passés à 50 Go par boîte aux lettres avec Office 365. L'introduction de OneDrive (1 To de stockage cloud) a également allégé les boîtes aux lettres en rendant les fichiers volumineux partageables.</li>
+                        <li><strong>Modernisation de la collaboration :</strong> Nos directeurs régionaux et les responsables de formation qu'ils gèrent sont également en déplacement, ce besoin était donc urgent. Le lancement de Microsoft Teams leur a enfin permis de faciliter les réunions à distance et le partage d'écrans avec Microsoft Teams, ainsi que d'obtenir les dernières nouveautés en matière de collaboration bureautique, en temps réel sur les documents, sans avoir à passer par le siège de manière mécanisée et progressive.</li>
+                        <li><strong>Sécurité et maintenance simplifiées :</strong> En tant que propriétaires, une grande partie de la maintenance nous incombe car nous travaillons sur un modèle SaaS. Comme les mises à jour de sécurité effectuées pour l'utilisateur sont réalisées de manière transparente, il y a peu de vulnérabilités logicielles en ce qui concerne l'ensemble du réseau.</li>
+                        <li><strong>Standardisation des RH :</strong> Avec un endroit comme le nôtre et une entreprise travaillant uniquement sur le recrutement, nous devons vraiment fournir des outils de travail contemporains. Lorsque nous alignons nos outils avec le marché, il est plus facile d'intégrer les employés.</li>
+                    </ul>
+                </div>
+
+                <!-- Planification et gestion de projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-calendar-alt" style="margin-right: 1rem; color: var(--clr-primary);"></i> Planification et gestion de projet :</h2>
+                    <p>Migrer plusieurs dizaines de sites géographiquement dispersés n'était pas quelque chose que l'on pouvait improviser. J'ai dû mettre en place une organisation pour ne pas être submergé par les demandes et les incidents.</p>
+                    <p>J'utilisais un fichier Excel de suivi ultra-détaillé pour tout. J'avais noté chaque restaurant, décomposé par marque, et j'avais une liste de l'équipement exact disponible (PC de bureau, ordinateur portable, tablette). J'avais un code couleur pour suivre l'avancement : gris pour les sites en attente, orange pour les migrations en cours ou avec des problèmes techniques, et vert pour les succès confirmés.</p>
+                    <p>Le calendrier était serré. Nos opérations ont commencé le 2 octobre 2023, avec pour objectif de tout terminer d'ici le 29 décembre. En pratique, nous avons terminé le 19 janvier. Une grande partie de ce retard de trois semaines est due à des défis logistiques imprévus. J'ai dû apprendre à prioriser, à communiquer les retards à mes supérieurs, et à réorganiser mes tournées en fonction de l'équipement disponible. Cela m'a fait réaliser qu'un projet informatique dépend autant de la technique que de la logistique pure.</p>
+                </div>
+
+                <!-- Préparation et Audit -->
+                <div class="content-block">
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Préparation et Audit :</h2>
+                    <p>Avant même de mentionner le Cloud, je devais m'assurer que la base technique était solide. Office 365 ne fonctionne que tant que Windows 10 est opérationnel. J'ai donc été contraint d'examiner chaque machine du groupe. Les postes de travail fonctionnant sous Windows 7 à l'époque ont été renvoyés au siège pour être soit réinstallels, soit remplacés.</p>
+                    <p>J'ai également découvert quelques détails techniques étranges : certaines versions de Windows 10 (comme la build 1903) ne voulaient pas de la suite Office, j'ai donc dû mettre à jour soigneusement chaque ordinateur vers la version 22H2. Ce n'est qu'après avoir validé cette étape logicielle que je suis passé à la partie administration sur le portail Microsoft 365. J'ai dû attribuer manuellement des licences utilisateur, une tâche chronophage mais vitale pour le bon déroulement du processus de migration.</p>
+                </div>
+
+                <!-- Réalisation Technique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-cogs" style="margin-right: 1rem; color: var(--clr-primary);"></i> Réalisation Technique :</h2>
+                    <p>La migration des données de messagerie était le cœur technique de mon intervention. Aucun email ne devait être perdu, absolument aucun. J'ai optimisé l'opération pour utiliser la migration hybride via le centre d'administration Exchange.</p>
+                    <p>J'ai créé des "lots de migration" pour chaque restaurant. Pour gagner du temps, mon astuce était de tester l'option de finalisation manuelle différée. De cette façon, je pouvais commencer la synchronisation (c'est-à-dire envoyer quelques Giga octets d'emails sur 10 ans - souvent plus) en arrière-plan pendant que les managers travaillaient. Il fallait entre 1 et 4 heures pour synchroniser cela initialement. Mais le jour même de l'intervention, je n'avais qu'à cliquer sur "Terminer le lot" et je transférais seulement les quelques emails envoyés depuis la veille. De cette manière, la transition était essentiellement invisible pour les utilisateurs, ce qui est particulièrement nécessaire pour ne pas perturber leur journée de travail.</p>
+                </div>
+
+                <!-- Installation locale et le casse-tête des macros Excel -->
+                <div class="content-block">
+                    <h2><i class="fas fa-laptop-code" style="margin-right: 1rem; color: var(--clr-primary);"></i> Installation locale et le casse-tête des macros Excel</h2>
+                    <p>Dans le Cloud, le poste de travail client devait être configuré. À distance, j'ai pris le contrôle pour effacer l'ancien profil Outlook dans le panneau de configuration et créer un profil propre pointant vers Exchange Online.</p>
+                    <p>C'est là que tout l'enjeu commercial est entré en jeu : les macros. Nos restaurants utilisent un fichier Excel très complexe pour passer leurs commandes fournisseurs. Office 365 a été d'une grande aide puisqu'il a apporté une sécurité accrue. Des macros comme celles-ci bloquaient le restaurant avec cela et il était physiquement impossible d'acheter ses articles depuis n'importe quel endroit. J'ai dû intervenir activement sur les paramètres de confidentialité d'Excel pour étiqueter nos dossiers réseau comme "emplacements de confiance". Cette manipulation minutieuse était ce qui empêchait l'activité commerciale du restaurant de continuer.</p>
+                    <p>Pour valider mon travail, je réalisais systématiquement des tests d'envoi de commandes depuis les serveurs locaux vers mon propre mail. Ce n'est qu'une fois la preuve reçue que je validais le site dans mon fichier Excel.</p>
+                </div>
+
+                <!-- Gestion des incidents -->
+                <div class="content-block">
+                    <h2><i class="fas fa-exclamation-triangle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Gestion des incidents</h2>
+                    <p>Au cœur de la phase de conception de ce nouveau système se trouve sa partie la plus difficile à maintenir, cette fois, ce n'était pas l'informatique mais la logistique. Nous avions trop de nouveaux PC et de barrettes de RAM pour une nouvelle équipe matérielle au milieu de la migration, épuisant le stock au milieu de tout cela. Il était impossible d'installer Office 365 sur des machines qui ne répondaient pas à ces prérequis.</p>
+                    <p>Plutôt que d'interrompre complètement les opérations de travail, j'ai mis en place une procédure de reconditionnement d'urgence : plutôt que d'arrêter tout. J'ai récupéré de vieux ordinateurs des sites migrés, les ai ramenés au siège puis les ai utilisés pour nettoyer, mettre des SSD et optimiser ce stockage et cette charge, et améliorer leur CPU pour mieux performer. Ces postes de travail "retravaillés" ont également été distribués sur les sites suivants.</p>
+                    <p>J'étais également responsable de la gestion des personnes. Les managers de restaurant sont des personnes occupées, j'ai créé une routine régulière : j'ai passé un appel systématique après le déjeuner (quand ils peuvent encore être généralement plus disponible et moins sous stress) pour coordonner les interventions. J'ai pris une sauvegarde complète sur un disque dur externe à chaque changement de machine, ce qui nous a évité de perdre des données locales à plusieurs reprises (fichiers personnels, photos de travail, etc.).</p>
+                </div>
+
+                <!-- Lendemains et Perspectives -->
+                <div class="content-block">
+                    <h2><i class="fas fa-rocket" style="margin-right: 1rem; color: var(--clr-primary);"></i> Lendemains et Perspectives : Une fondation pour l'avenir</h2>
+                    <p>Ce projet n'était pas une fin en soi, mais il a certainement lancé une nouvelle ère pour Crescendo. L'infrastructure du projet est maintenant préparée pour plus de développements futurs. Utilisez SharePoint pour centraliser toutes les fiches recettes et l'hygiène qui sont de vieux classeurs papier qui peuvent être remplacés. La sécurité a également été renforcée en activant l'authentification multi-facteurs (MFA) afin que nos comptes soient beaucoup plus difficiles à pirater.</p>
+                    <p>Cette migration a changé la perception des outils informatiques dans les restaurants : là où ils étaient autrefois considérés comme une contrainte technique, aujourd'hui, ils offrent un véritable assistant quotidien.</p>
+                </div>
+
+                <!-- Ce que je retiens du projet ! -->
+                <div class="content-block">
+                    <h2><i class="fas fa-lightbulb" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ce que je retiens du projet !</h2>
+                    <p>Ce projet a été le véritable point culminant de mon apprentissage. Il m'a appris qu'être un bon technicien ne suffit pas ; il faut aussi savoir organiser son temps, gérer les problèmes matériels imprévus et être pédagogique avec les utilisateurs qui ne sont pas forcément à l'aise avec le changement.</p>
+                    <p>J'ai gagné beaucoup d'autonomie. Devoir décider quel restaurant prioriser ou comment booster un vieux PC pour qu'il dure encore deux ans nécessite un certain niveau de responsabilité. Techniquement, je maîtrise maintenant l'écosystème Microsoft 365, un atout majeur pour la suite de ma carrière. Mais au-delà de l'aspect technique, c'est la fierté d'avoir mené à bien un projet d'une telle envergure, malgré les retards de livraison et les bugs de dernière minute, qui restera avec moi. Ce projet m'a prouvé que je suis capable de gérer une infrastructure complexe avec professionnalisme et adaptabilité.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="realisations.html" class="btn-secondary">Retour aux réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html" class="active">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

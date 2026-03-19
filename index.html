@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yannick CONTI-LIGNAC</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <p class="subtitle fade-in-up">Bienvenue sur mon portfolio</p>
+            <h1 class="fade-in-up delay-1">EXPERT EN INGÉNIERIE<br>DES <span class="text-gradient">SYSTÈMES
+                    D'INFORMATION</span></h1>
+            <p class="description fade-in-up delay-2">Je suis passionné par l'informatique depuis de nombreuses années.
+                Découvrez mon profil, mes compétences et mes réalisations.</p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#presentation" class="btn-primary">Ma présentation</a>
+                <a href="#realisations" class="btn-secondary">Mes réalisations</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-sphere shape-1"></div>
+            <div class="gradient-sphere shape-2"></div>
+        </div>
+    </section>
+
+    <!-- Présentation Section -->
+    <section id="presentation" class="section">
+        <div class="container">
+            <h2 class="section-title">Ma <span>Présentation</span></h2>
+            <div class="presentation-grid">
+                <div class="presentation-text slide-in-left">
+                    <h3>Qui suis-je ?</h3>
+                    <p>De nature curieuse et déterminée, j’ai toujours eu ce besoin constant d’apprendre et de découvrir de nouvelles choses, que ce soit dans mon domaine de spécialisation, les systèmes et réseaux ou dans des domaines plus larges tels que la cybersécurité.</p>
+                    <p>Actuellement en 5ème année à l’ESIEA et alternant au sein du groupe Crescendos Restauration, je me passionne pour l’architecture des systèmes, la cybersécurité et la performance réseau.</p>
+                    <a href="presentation.html" class="btn-secondary-small" style="margin-top: 1rem; display: inline-block;">En savoir plus</a>
+                </div>
+                <div class="presentation-stats slide-in-right">
+                    <div class="stat-card glass">
+                        <i class="fas fa-project-diagram stat-icon"></i>
+                        <h4 class="counter" data-target="10">0</h4>
+                        <p>Projets réalisés</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <i class="fas fa-book stat-icon"></i>
+                        <h4 class="counter" data-target="175">0</h4>
+                        <p>Documentations rendues</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <i class="fas fa-users stat-icon"></i>
+                        <h4 class="counter" data-target="180">0</h4>
+                        <p>Professionnels rencontrés</p>
+                    </div>
+                    <div class="stat-card glass">
+                        <i class="fas fa-clock stat-icon"></i>
+                        <h4 class="counter" data-target="2000">0</h4>
+                        <p>Heures d'expérience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="section bg-light-blue">
+        <div class="container">
+            <h2 class="section-title text-center">Mes <span>Compétences</span></h2>
+
+            <div class="skills-wrapper">
+                <!-- Compétences Techniques -->
+                <div class="skills-column fade-in">
+                    <h3 class="skills-subtitle"><i class="fas fa-laptop-code"></i> Compétences Techniques</h3>
+                    <div class="skill-cards">
+                        <a href="comp-scripting.html" class="skill-card glass-hover">
+                            <i class="fas fa-terminal terminal-icon"></i>
+                            <h4>Scripting & Automatisation</h4>
+                            <p>Découvrir mon expertise en automatisation.</p>
+                        </a>
+                        <a href="comp-gestion-serveurs.html" class="skill-card glass-hover">
+                            <i class="fas fa-server server-icon"></i>
+                            <h4>Gestion des Serveurs</h4>
+                            <p>Découvrir mon administration système.</p>
+                        </a>
+                        <a href="comp-cyber.html" class="skill-card glass-hover">
+                            <i class="fas fa-shield-alt cyber-icon"></i>
+                            <h4>Sécurité Informatique</h4>
+                            <p>Découvrir mon expertise sécurité.</p>
+                        </a>
+                        <a href="comp-reseau.html" class="skill-card glass-hover">
+                            <i class="fas fa-network-wired network-icon"></i>
+                            <h4>Le Réseau</h4>
+                            <p>Découvrir mes compétences réseau.</p>
+                        </a>
+                        <a href="comp-migration.html" class="skill-card glass-hover">
+                            <i class="fas fa-exchange-alt cloud-icon"></i>
+                            <h4>Migration d'Infrastructures</h4>
+                            <p>Découvrir mes projets de migration.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Compétences Humaines -->
+                <div class="skills-column fade-in delay-2">
+                    <h3 class="skills-subtitle"><i class="fas fa-hands-helping"></i> Compétences Humaines</h3>
+                    <div class="skill-cards">
+                        <a href="comp-adaptabilite.html" class="skill-card glass-hover">
+                            <i class="fas fa-sync-alt"></i>
+                            <h4>Adaptabilité</h4>
+                            <p>Découvrir mon agilité et ma polyvalence.</p>
+                        </a>
+                        <a href="comp-equipe.html" class="skill-card glass-hover">
+                            <i class="fas fa-users-cog"></i>
+                            <h4>Travail en Équipe</h4>
+                            <p>Découvrir ma collaboration et mon esprit collectif.</p>
+                        </a>
+                        <a href="comp-gestion-projet.html" class="skill-card glass-hover">
+                            <i class="fas fa-tasks"></i>
+                            <h4>Gestion de Projet</h4>
+                            <p>Découvrir mon organisation et ma méthodologie.</p>
+                        </a>
+                        <a href="comp-auto.html" class="skill-card glass-hover">
+                            <i class="fas fa-user-shield"></i>
+                            <h4>Autonomie</h4>
+                            <p>Découvrir ma proactivité et mon indépendance.</p>
+                        </a>
+                        <a href="comp-comm.html" class="skill-card glass-hover">
+                            <i class="fas fa-comments"></i>
+                            <h4>Communication</h4>
+                            <p>Découvrir mes capacités d'échange et d'écoute.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Réalisations Section -->
+    <section id="realisations" class="section">
+        <div class="container">
+            <h2 class="section-title">Panorama de mes <span>Réalisations</span></h2>
+            <div class="portfolio-grid">
+                <!-- Phishing Project -->
+                <div class="portfolio-card glass fade-in-up delay-1">
+                    <div class="portfolio-img">
+                        <img src="images/phishing-thumb.png" alt="Campagne de Phishing">
+                        <div class="portfolio-overlay">
+                            <a href="realisation-phishing.html" class="view-btn"><i class="fas fa-eye"></i> Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3><a href="realisation-phishing.html">Campagne de Phishing</a></h3>
+                        <p>Sensibilisation et protection contre l'hameçonnage en milieu professionnel.</p>
+                    </div>
+                </div>
+
+                <!-- SOC Project -->
+                <div class="portfolio-card glass fade-in-up delay-2">
+                    <div class="portfolio-img">
+                        <img src="images/soc-thumb.png" alt="Mise en place d'un SOC">
+                        <div class="portfolio-overlay">
+                            <a href="realisation-soc.html" class="view-btn"><i class="fas fa-eye"></i> Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3><a href="realisation-soc.html">Mise en place d'un SOC</a></h3>
+                        <p>Pilotage et déploiement d'un Security Operations Center avec ITrust.</p>
+                    </div>
+                </div>
+
+                <!-- DockStock Project -->
+                <div class="portfolio-card glass fade-in-up delay-3">
+                    <div class="portfolio-img">
+                        <img src="images/dockstock-thumb.png" alt="Projet DockStock">
+                        <div class="portfolio-overlay">
+                            <a href="realisation-dockstock.html" class="view-btn"><i class="fas fa-eye"></i> Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3><a href="realisation-dockstock.html">Projet DockStock</a></h3>
+                        <p>Infrastructure virtualisée et conteneurisée pour la gestion de services agiles.</p>
+                    </div>
+                </div>
+
+                <!-- WinVieW Project -->
+                <div class="portfolio-card glass fade-in-up delay-4">
+                    <div class="portfolio-img">
+                        <img src="images/winview-thumb.png" alt="Projet WinVieW">
+                        <div class="portfolio-overlay">
+                            <a href="realisation-winview.html" class="view-btn"><i class="fas fa-eye"></i> Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3><a href="realisation-winview.html">Projet WinVieW</a></h3>
+                        <p>Migration et mise à niveau d'infrastructure Windows Server.</p>
+                    </div>
+                </div>
+
+                <!-- Office 365 Project -->
+                <div class="portfolio-card glass fade-in-up delay-1">
+                    <div class="portfolio-img">
+                        <img src="images/office365-thumb.png" alt="Migration vers Office 365">
+                        <div class="portfolio-overlay">
+                            <a href="realisation-office365.html" class="view-btn"><i class="fas fa-eye"></i> Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3><a href="realisation-office365.html">Migration vers Office 365</a></h3>
+                        <p>Transition technologique majeure vers le Cloud Microsoft.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light-blue contact-section">
+        <div class="container text-center">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            <p class="contact-desc fade-in">N'hésitez pas à me contacter pour toute opportunité ou question concernant
+                mon profil.</p>
+
+            <div class="contact-actions fade-in-up delay-1">
+                <a href="mailto:conti-lignac@et.esiea.fr" class="btn-primary"><i class="fas fa-envelope"></i>
+                    conti-lignac@et.esiea.fr</a>
+                <a href="https://www.linkedin.com/in/yannick-conti-lignac-59428b25a" class="btn-secondary" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

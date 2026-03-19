@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripting et Automatisation - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html" class="active">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html" class="active">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">SCRIPTING ET <span class="text-gradient">AUTOMATISATION</span></h1>
+            <p class="page-description">Optimiser l'efficacité et la fiabilité par le code.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma définition</h2>
+                    <p>En informatique, le Scripting, c'est un peu comme passer de la conduite manuelle à l'automatique : c'est ce qui permet d'être vraiment efficace. On ne scripte pas juste pour "faire du code", on le fait pour s'éviter les tâches répétitives et surtout pour être sûr de ne pas faire d'erreurs. Un script, ça ne fatigue pas, ça ne fait pas de fautes de frappe et ça refait exactement la même chose à chaque fois. J'ai vite compris que si je voulais gérer des réseaux sérieux, il fallait que j'apprenne à automatiser tout ce qui peut l'être. C'est en mettant les mains dans le cambouis, sur des vrais serveurs, que j'ai vraiment progressé là-dessus.</p>
+                </div>
+
+                <!-- Mes preuves -->
+                <div class="content-block">
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes preuves (ce que j'ai fait concrètement)</h2>
+                    <p>Tout a commencé à l'ESIEA. Pour mon Projet Infrastructure, je ne voulais pas tout installer à la main à chaque fois. Du coup, j'ai scripté le déploiement de mes conteneurs Docker. Avec un peu de Bash et du Docker-Compose, j'ai réussi à monter des environnements complets (réseaux, stockage, services) en une seule commande. C'est super satisfaisant de voir tout un système se construire tout seul sans erreur.</p>
+                    <p style="margin-top: 1rem;">Pendant mon alternance chez Crescendo, c'est devenu encore plus concret. Notre prestataire nous envoyait des scripts pour installer des agents de surveillance et d’envoi de logs sur nos serveurs.</p>
+                    <p style="margin-top: 1rem;">Pour finir, sur la campagne de phishing. J'ai créé des scripts pour récupérer automatiquement les listes d'emails et trier les utilisateurs. Ça m'a sauvé des heures de copier-coller et ça m'a permis de lancer la campagne de phishing proprement sur tout le parc. À chaque fois, j'essaye de bien commenter mes scripts pour que mes collègues puissent les réutiliser si jamais, ils ont besoin de les reprendre par la suite et pour actualiser la liste d’utilisateurs.</p>
+                </div>
+
+                <!-- Mon autocritique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique</h2>
+                    <p>Aujourd'hui, je me considère comme « Autonome ». Je sais analyser un problème et pondre un script efficace (en Bash ou YAML) pour automatiser un déploiement ou traiter des données. Mes scripts sont propres, structurés et faciles à relire avec des commentaires.</p>
+                    <p style="margin-top: 1rem;">Après, je reste lucide : face à des logiques très complexes, il m'arrive encore de passer du temps sur le débogage pour comprendre une erreur précise. Mais c'est une étape d'apprentissage nécessaire. Mon ambition est de dépasser l'automatisation ponctuelle pour passer à une gestion globale d'Infrastructure as Code. J'ai beaucoup progressé depuis mes premiers conteneurs à l'école, et j'aborde aujourd'hui le lancement de scripts en production with beaucoup plus d'assurance et de sérénité.</p>
+                </div>
+
+                <!-- Ce que je prévois pour la suite -->
+                <div class="future-vision">
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Ce que je prévois pour la suite</h2>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="margin-bottom: 0.8rem; display: flex; align-items: flex-start; gap: 1rem;">
+                            <i class="fas fa-check-circle" style="color: var(--clr-primary); margin-top: 0.3rem;"></i>
+                            <span>J'ai vraiment envie de pousser plus loin ce qu'on a vu en 5ème année à l'ESIEA, surtout sur Ansible, Terraform et Kubernetes. C'est le futur du métier d'architecte.</span>
+                        </li>
+                        <li style="display: flex; align-items: flex-start; gap: 1rem;">
+                            <i class="fas fa-check-circle" style="color: var(--clr-primary); margin-top: 0.3rem;"></i>
+                            <span>Pour ça, je vais me faire la formation « Utilisez Ansible pour automatiser vos tâches de configuration » sur OpenClassrooms. Ça va m'aider à passer à la vitesse supérieure pour gérer des parcs informatiques encore plus gros.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="competences-techniques.html" class="btn-secondary">Retour aux compétences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

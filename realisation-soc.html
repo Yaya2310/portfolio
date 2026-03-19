@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mise en place d'un SOC - Yannick CONTI-LIGNAC</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html" class="active">Réalisations <i
+                            class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html" class="active">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">MISE EN PLACE D'UN <span class="text-gradient">SOC</span> EXTERNALISÉ</h1>
+            <p class="page-description">Surveillance, détection et réponse aux incidents avec ITrust.</p>
+        </div>
+    </header>
+
+
+
+    <section class="page-content">
+        <div class="container delay-1">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i>
+                        Introduction</h2>
+                    <p>La cybersécurité est aujourd'hui devenue une priorité absolue et stratégique pour toutes les
+                        entreprises, y compris dans le secteur de la restauration. Face à la sophistication et à la
+                        recrudescence des menaces informatiques, le groupe Crescendo Restauration a pris la décision de
+                        renforcer considérablement sa posture de sécurité. Pour répondre à ce besoin, on m'a confié la
+                        mission de piloter la mise en œuvre d'un Security Operations Center (SOC) externalisé, en
+                        collaboration avec le prestataire ITrust. Ce projet d'envergure visait à surveiller, détecter et
+                        répondre aux incidents de sécurité sur l'ensemble de notre infrastructure, qu'elle soit locale
+                        ou hébergée dans le Cloud.</p>
+                </div>
+
+                <!-- Contexte et Objectifs stratégiques -->
+                <div class="content-block">
+                    <h2><i class="fas fa-bullseye" style="margin-right: 1rem; color: var(--clr-primary);"></i> Contexte
+                        et Objectifs stratégiques</h2>
+                    <p>Pendant longtemps, les SOC étaient des solutions onéreuses exclusivement réservées aux Opérateurs
+                        d’Importance Vitale (OIV) ou aux très grandes entreprises du CAC40. Cependant, le paysage des
+                        menaces a évolué. Aujourd'hui, les petites et moyennes entreprises (PME), ainsi que les très
+                        petites entreprises (TPE), sont des cibles de choix pour les cybercriminels en raison de leurs
+                        ressources de protection souvent limitées. En 2023, environ 39 % des PME/TPE ont été victimes de
+                        cyberattaques en France.</p>
+                    <p>Au-delà de la menace technique, l'entreprise faisait face à un impératif légal et assurantiel.
+                        L'absence d'un système de journalisation (logging) centralisé et analysé en continu rendait
+                        Crescendo Restauration vulnérable d'un point de vue juridique : sans preuve concrète (logs) pour
+                        justifier l'origine et la nature d'une attaque, les assurances refusaient de couvrir les pertes
+                        financières liées à un potentiel sinistre cyber.</p>
+                    <p>Les objectifs majeurs de ce déploiement étaient donc multiples :</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem; color: var(--clr-text-muted);">
+                        <li><strong>Détection précoce :</strong> Identifier rapidement les menaces avancées
+                            (Ransomwares, APT, fuites de données) grâce à l'intelligence artificielle.</li>
+                        <li><strong>Centralisation et Traçabilité :</strong> Regrouper les journaux d'événements de
+                            l'ensemble de nos serveurs critiques et équipements réseaux pour assurer une couverture
+                            légale.</li>
+                        <li><strong>Souveraineté des données :</strong> Travailler avec un prestataire 100% français,
+                            dont les données restent hébergées en France, garantissant une conformité aux normes (HDS,
+                            RGPD) sans être soumis au Patriot Act ou au Cloud Act américain.</li>
+                    </ul>
+                </div>
+
+                <!-- Le Prestataire -->
+                <div class="content-block">
+                    <h2><i class="fas fa-building" style="margin-right: 1rem; color: var(--clr-primary);"></i> Le
+                        Prestataire : ITrust et ses technologies</h2>
+                    <p>Pour ce projet, le choix de la direction s'est porté sur ITrust, une entreprise experte en
+                        cybersécurité basée à Labège, près de Toulouse. La solution proposée par ITrust repose sur un
+                        écosystème technologique avancé appelé SOC SIEM XDR UEBA.</p>
+                    <p>Pour comprendre le cœur de mon travail, il est essentiel de définir ces concepts clés que j'ai dû
+                        appréhender :</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem; color: var(--clr-text-muted);">
+                        <li><strong>SIEM (Security Information and Event Management) :</strong> C'est le moteur qui
+                            collecte et centralise les données des événements de sécurité à travers toute
+                            l'infrastructure IT.</li>
+                        <li><strong>XDR (Extended Detection and Response) :</strong> Une évolution du SIEM qui intègre
+                            plusieurs couches de sécurité pour une réponse plus globale.</li>
+                        <li><strong>UEBA (User and Entity Behavior Analytics) :</strong> Une technologie d'intelligence
+                            artificielle qui analyse les comportements pour identifier les activités anormales des
+                            utilisateurs.</li>
+                        <li><strong>MITRE ATT&CK :</strong> Une base de connaissances mondiale répertoriant les
+                            tactiques et techniques des attaquants. Le système Reveelium d'ITrust se base sur cette
+                            matrice pour classer la dangerosité des logs suspects.</li>
+                    </ul>
+                </div>
+
+                <!-- Organisation et Gestion de Projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-calendar-alt" style="margin-right: 1rem; color: var(--clr-primary);"></i>
+                        Organisation et Gestion de Projet</h2>
+                    <p>La gestion de ce projet nécessitait une grande flexibilité. Le planning s'est étalé sur plusieurs
+                        mois, d'octobre 2023 à mars 2024. N'ayant pas de calendrier strict imposé par le prestataire,
+                        j'ai dû structurer mon propre suivi, avec pour contrainte principale de finaliser le déploiement
+                        des agents de collecte de logs sur nos serveurs avant le 31 décembre 2023.</p>
+                    <p>La communication avec ITrust s'est organisée autour d'un espace collaboratif sécurisé appelé
+                        "Share". Ce portail permettait d'échanger des documentations techniques, des certificats et des
+                        comptes-rendus en toute confidentialité. J'ai mené 5 réunions clés avec les équipes d'ITrust
+                        (notamment Rémi UGUET, l'ingénieur système, et Edwins FELIMARD, gestionnaire de la prestation):
+                    </p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem; color: var(--clr-text-muted);">
+                        <li><strong>10/10/2023 :</strong> Préparation au déploiement des agents légers.</li>
+                        <li><strong>05/12/2023 :</strong> Point technique pour corriger les scripts sur les anciens
+                            systèmes d'exploitation.</li>
+                        <li><strong>28/12/2023 :</strong> Vérification globale du déploiement et validation de la
+                            réception des logs.</li>
+                        <li><strong>11/01/2024 :</strong> Formation opérationnelle sur les outils du SOC.</li>
+                        <li><strong>27/03/2024 :</strong> Finalisation de l'envoi des logs des pare-feux, d'Office 365
+                            et des antivirus, clôturant le projet.</li>
+                    </ul>
+                </div>
+
+                <!-- Réalisation Technique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-cogs" style="margin-right: 1rem; color: var(--clr-primary);"></i> Réalisation
+                        Technique Détaillée</h2>
+
+                    <h3>Phase 1 : Initialisation et Sécurisation des Flux</h3>
+                    <p>La première étape technique a consisté à définir le périmètre de surveillance, appelé le "Scope
+                        de collecte". J'ai rédigé un document Excel répertoriant très précisément 51 serveurs et
+                        pare-feux. Pour chaque équipement, j'ai dû identifier son adresse IP locale, sa fonction (ex:
+                        Active Directory, Base de données), son système d'exploitation (Windows Server 2016, Debian 10,
+                        VMware ESXi), les types de logs désirés (Système, Messagerie, Réseau) et les protocoles de
+                        communication associés (Syslog, ODBC, SMTP via TCP ou UDP).</p>
+                    <p>Afin que ces 51 serveurs puissent envoyer leurs journaux d'événements de manière sécurisée vers
+                        le centre de données d'ITrust, j'ai dû configurer un VPN (Virtual Private Network) IPSec
+                        site-à-site. Cette technologie permet de connecter notre réseau local (LAN) à celui du
+                        prestataire comme s'ils ne faisaient qu'un. J'ai échangé les configurations de nos pare-feux
+                        respectifs, en définissant les adresses IP publiques, les règles de hachage, de chiffrement et
+                        de cryptographie nécessaires aux phases d'authentification IPSec.</p>
+
+                    <h3 style="margin-top: 2rem;">Phase 2 : Déploiement Massif des Agents de Collecte</h3>
+                    <p>Sans agents de collecte, le SOC est aveugle. J'ai donc procédé au déploiement de différents
+                        scripts fournis par ITrust, adaptés à chaque typologie de serveur.</p>
+                    <p><strong>Sur l'environnement Windows :</strong> J'ai utilisé le script Winlogbeat. Cet agent léger
+                        est conçu pour extraire et transférer les journaux d'événements Windows. Il était couplé à
+                        Sysmon (System Monitor), un outil avancé permettant une surveillance granulaire du système. J'ai
+                        transféré les scripts via le lecteur réseau, je les ai exécutés en tant qu'administrateur, ce
+                        qui a permis d'installer l'agent et d'appliquer automatiquement les certificats de sécurité
+                        d'ITrust. Je vérifiais systématiquement la bonne exécution du service dans le gestionnaire des
+                        tâches.</p>
+                    <p><strong>Sur l'environnement Linux :</strong> Pour nos serveurs sous Debian, j'ai déployé l'agent
+                        Auditbeat, spécialisé dans le transfert de données d'audit Linux. La procédure était plus
+                        complexe : j'utilisais le logiciel MobaXterm pour transférer le script via FTP dans le dossier
+                        temporaire /tmp, puis je me connectais au serveur en SSH. Je devais installer au préalable les
+                        paquets curl et bash, attribuer les droits d'exécution au script via la commande chmod +x
+                        installer.sh, puis vérifier le fonctionnement via la commande service auditbeat status.</p>
+                    <p><strong>Sur les Contrôleurs de Domaine (Active Directory) :</strong> Pour nos serveurs AD (AD1 et
+                        AD2), une surveillance spécifique des requêtes DNS était requise. J'ai déployé un script
+                        combinant Winlogbeat, Sysmon et Filebeat.</p>
+                    <p>Durant ce processus, j'ai rencontré un obstacle technique majeur : les scripts d'installation
+                        échouaient sur certains de nos plus anciens serveurs en raison d'incompatibilités d'OS. J'ai dû
+                        organiser une session de débogage (troubleshooting) avec l'ingénieur d'ITrust le 5 décembre pour
+                        modifier les scripts en direct, les tester et finaliser le déploiement sur l'ensemble du parc
+                        avant la date butoir de fin d'année.</p>
+
+                    <h3 style="margin-top: 2rem;">Phase 3 : Intégration Avancée (Cloud, Antivirus et Pare-feu)</h3>
+                    <p>Pour que le SOC soit véritablement "Extended" (XDR), il ne fallait pas se limiter aux serveurs
+                        physiques. J'ai pris l'initiative de demander l'intégration de nos solutions Cloud et de nos
+                        solutions de sécurité de bout de réseau.</p>
+                    <p><strong>Microsoft Office 365 :</strong> Pour remonter les logs de notre environnement
+                        collaboratif et détecter des connexions frauduleuses, j'ai dû configurer une application dans le
+                        Portail Azure (Microsoft Entra ID). J'ai créé une inscription d'application dédiée à ITrust,
+                        généré un certificat (Client Secret) et récupéré les identifiants locataires (Tenant ID). J'ai
+                        ensuite configuré les permissions d'API spécifiques (Office 365 Management APIs) en activant les
+                        droits ActivityFeed.Read (pour les connexions et activités) et ActivityFeed.ReadDlp (pour la
+                        prévention des pertes de données sensibles).</p>
+                    <p><strong>Antivirus (SaaS et On-Premise) :</strong> Nous utilisons deux solutions. Pour Trend Micro
+                        (SaaS), je me suis connecté à l'interface d'administration pour générer un Token d'API via le
+                        module "Automation and Investigation APIs", permettant à ITrust d'interroger directement le
+                        cloud de l'antivirus. Pour Kaspersky (installé sur un serveur local), j'ai configuré
+                        l'exportation des événements vers le système SIEM en utilisant le protocole Syslog via TCP/IP,
+                        en renseignant l'IP publique d'ITrust directement dans les propriétés du serveur
+                        d'administration Kaspersky.</p>
+                    <p><strong>Pare-feux Fortigate :</strong> Le paramétrage de l'envoi des logs de nos pare-feux
+                        Fortinet a nécessité l'intervention experte du prestataire en raison de la version vieillissante
+                        de notre équipement. Une fois le correctif appliqué, je suis intervenu dans l'interface du
+                        Fortigate, sous l'onglet "Log & Report", pour activer l'option "Send Logs to Syslog" en pointant
+                        vers l'IP publique d'ITrust.</p>
+                </div>
+
+                <!-- Formation, Outils -->
+                <div class="content-block">
+                    <h2><i class="fas fa-tools" style="margin-right: 1rem; color: var(--clr-primary);"></i> Formation,
+                        Outils et Gestion des Incidents</h2>
+                    <p>Une fois les flux de données établis, la phase d'exploitation a commencé. Pour accéder au tableau
+                        de bord hautement sécurisé d'ITrust, j'ai dû modifier le fichier système hosts
+                        (C:\Windows\System32\drivers\etc) sur les postes de l'équipe informatique, en y ajoutant
+                        l'adresse IP de résolution du portail Reveelium. L'accès est protégé par un mot de passe
+                        complexe de 20 caractères minimum et par un chiffrement AES 256 bits du navigateur via la
+                        plateforme Privatebin.</p>
+                    <p>Le 11 janvier 2024, l'ensemble du service support (5 personnes) a suivi une formation dispensée
+                        par ITrust sur les 4 outils majeurs de notre nouveau SOC :</p>
+                    <ol style="margin-left: 2rem; margin-top: 1rem; color: var(--clr-text-muted);">
+                        <li><strong>Graylog :</strong> L'outil de recherche de logs bruts. Il permet d'analyser en temps
+                            réel les milliers de lignes de journaux générées par nos serveurs.</li>
+                        <li><strong>TheHive :</strong> La plateforme de gestion des incidents. C'est ici que les alertes
+                            sont transformées en "tickets".</li>
+                        <li><strong>Reveelium UEBA/SIEM :</strong> Le cerveau de l'opération. Il offre une
+                            centralisation graphique des menaces détectées par l'Intelligence Artificielle.</li>
+                        <li><strong>Grafana :</strong> L'outil de reporting et de monitoring de la conformité.</li>
+                    </ol>
+                    <p style="margin-top: 1.5rem;"><strong>La phase d'apprentissage et la gestion des faux positifs
+                            :</strong> Les deux premiers mois suivant l'activation du SOC ont été cruciaux. Le module
+                        d'Intelligence Artificielle (UEBA) a dû observer le réseau pour en définir le comportement
+                        "normal". Durant cette période, nous recevions de nombreuses alertes (faux positifs) concernant
+                        des tâches planifiées légitimes ou des scripts de sauvegarde hebdomadaires. Mon rôle a été
+                        d'analyser ces alertes, d'en confirmer la légitimité auprès d'ITrust, afin qu'ils autorisent ces
+                        comportements réguliers, affinant ainsi la précision de l'IA.</p>
+                    <p>Un exemple concret de traitement d'incident a été la réception d'une alerte critique signalant
+                        une connexion au compte Office 365 d'un collaborateur depuis les États-Unis. L'entreprise
+                        n'opérant qu'en France, l'action était jugée hautement suspecte par l'IA. Après investigation et
+                        un appel direct à l'utilisateur, j'ai pu confirmer qu'il était effectivement en voyage personnel
+                        aux États-Unis et qu'il s'agissait d'une connexion légitime.</p>
+                </div>
+
+                <!-- Perspective d’avenir sur le projet -->
+                <div class="content-block">
+                    <h2><i class="fas fa-lightbulb" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ce que
+                        je retiens du projet ! (Bilan et Compétences)</h2>
+                    <p>Ce projet a été une véritable révélation professionnelle. Avant mon alternance, le concept de SOC
+                        m'était inconnu. J'ai découvert de l'intérieur le fonctionnement d'une infrastructure de
+                        cybersécurité de haut niveau et l'importance vitale de la surveillance continue et de la réponse
+                        rapide aux incidents.</p>
+                    <p>La difficulté principale a été de jongler entre des environnements hétérogènes (Windows, Linux,
+                        SaaS, On-premise) et de comprendre les protocoles de communication de chacun pour garantir une
+                        remontée des logs sans faille. Travailler aux côtés d'un ingénieur spécialisé d'ITrust a été
+                        extrêmement enrichissant et m'a permis de monter en compétences techniques très rapidement.</p>
+                    <p>Ce projet m'a également appris que la technique ne suffit pas : la gestion de projet, la
+                        communication avec les prestataires, et la capacité à adapter des scripts face à des systèmes
+                        récalcitrants sont des atouts indispensables pour mener à bien un tel déploiement. Je suis très
+                        fier d'avoir doté Crescendo Restauration d'une capacité de détection des cyberattaques digne des
+                        plus grands standards du marché, et d'avoir activement participé à la sécurisation globale de
+                        l'entreprise.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="realisations.html" class="btn-secondary">Retour aux réalisations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Réseau - Yannick CONTI-LIGNAC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar glass scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="index.html">Accueil <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="realisations.html">Réalisations <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="competences.html" class="active">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu glass">
+                        <li class="nested-dropdown">
+                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
+                                <li><a href="comp-gestion-serveurs.html">Gestion des Serveurs</a></li>
+                                <li><a href="comp-cyber.html">Sécurité Informatique</a></li>
+                                <li><a href="comp-reseau.html" class="active">Le Réseau</a></li>
+                                <li><a href="comp-migration.html">Migration d'Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nested-dropdown">
+                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <ul class="submenu glass">
+                                <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
+                                <li><a href="comp-equipe.html">Travail en Équipe</a></li>
+                                <li><a href="comp-gestion-projet.html">Gestion de Projet</a></li>
+                                <li><a href="comp-auto.html">Autonomie</a></li>
+                                <li><a href="comp-comm.html">Communication</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="btn-primary-small">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">LE <span class="text-gradient">RÉSEAU</span></h1>
+            <p class="page-description">Système nerveux de l'entreprise : performance, sécurité et stratégie.</p>
+        </div>
+    </header>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="presentation-full">
+                <!-- Introduction -->
+                <div class="content-block">
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma définition</h2>
+                    <p>En Informatique, le réseau est le système nerveux de l'entreprise. Savoir l'implémenter de manière sécurisée ne se limite pas à connecter des câbles, c’est une question de stratégie pour prévenir les vecteurs d’attaque comme le vol de données ou le déni de service. Pour un futur architecte, cette couche est critique car elle doit garantir la fluidité du trafic tout en restant étanche face aux menaces. J'ai compris très tôt qu'une configuration réseau incomplète peut avoir des répercussions sévères sur l'activité. C’est en manipulant des équipements concrets que j’ai forgé ma rigueur dans ce domaine.</p>
+                </div>
+
+                <!-- Mes éléments de preuve -->
+                <div class="content-block">
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes éléments de preuve</h2>
+                    <p>Mon expertise s’est forgée sur deux piliers complémentaires : la conception d'architectures complexes à l’ESIEA et la gestion de cycles de vie matériels et logiciels chez Crescendo.</p>
+                    <p style="margin-top: 1rem;">Lors de mon quatrième semestre à l'ESIEA, j'ai dû concevoir et déployer une infrastructure réseau et système complète pour une entreprise. Ce projet a été le point de départ de ma compréhension de l'interdépendance entre le réseau et les services critiques. L'architecture reposait sur un pare-feu PfSense, configuré pour segmenter le trafic entre différentes zones de sécurité (WAN, LAN, DMZ).</p>
+                    <p style="margin-top: 1rem;">Dans ce cadre, j'ai implémenté et interconnecté des services piliers : un Active Directory (AD) pour la gestion centralisée des identités, ainsi que les services DNS et DHCP. L'enjeu technique majeur était de s'assurer que les requêtes DHCP et les résolutions DNS traversaient correctement les segments réseau tout en étant filtrées par le PfSense. J'ai dû configurer des règles de pare-feu et des routes statiques pour isoler les flux d'administration des flux utilisateurs. Ce projet m'a appris qu'un réseau sécurisé commence par une segmentation stricte : un serveur AD ne doit jamais être exposé directement, et chaque port ouvert doit être justifié par un besoin métier précis.</p>
+                    <p style="margin-top: 1rem;">L'aspect le plus formateur de ce parcours a été la réalisation de migrations critiques de serveurs Windows. J'ai travaillé sur le passage de systèmes obsolètes, tels que Windows Server 2008 ou 2012, vers Windows Server 2022. Cette mission était complexe car elle imposait une migration par paliers : pour conserver l'intégralité des données et la cohérence de l'Active Directory, il a fallu passer par une version intermédiaire en 2016 avant d'atteindre la cible 2022.</p>
+                    <p style="margin-top: 1rem;">Mon expérience chez Crescendo et mes projets de migration m'ont permis de toucher à la reality du cycle de vie des infrastructures. Renouvellement du parc (Windows 10 vers 11) : Au sein de Crescendo, j'ai géré le remplacement des postes de travail non compatibles with Windows 11. Au-delà de l'aspect matériel, cette mission impliquait une gestion rigoureuse de la connectivité réseau. Il fallait s'assurer que ces nouveaux postes intégraient parfaitement le domaine, recevaient les bonnes GPO (Group Policy Objects) de sécurité et que leurs accès Wi-Fi et Ethernet étaient correctement authentifiés via nos équipements réseaux.</p>
+                </div>
+
+                <!-- Mon autocritique -->
+                <div class="content-block">
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique</h2>
+                    <p>En matière de réseau et sécurité, j’ai le niveau « Confirmé ». Grâce à mes projets et mon alternance chez Crescendo, je maîtrise aujourd'hui les principes fondamentaux comme la segmentation réseau et la configuration de routeur. Je suis capable de mettre en place une infrastructure réseau sécurisée et de la faire évoluer.</p>
+                    <p style="margin-top: 1rem;">Cependant, je suis conscient qu'il me manque encore de l'expérience pour prendre seul les meilleures décisions architecturales sur des infrastructures de très grande taille. Cela me pousse à vouloir continuer d’apprendre pour passer d'une sécurité de réaction à une sécurité pensée dès la conception du réseau.</p>
+                </div>
+
+                <!-- Mon évolution dans la compétence -->
+                <div class="future-vision">
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Mon évolution dans la compétence</h2>
+                    <p>Mon évolution s’est construite par la pratique et la certification. Entre 2022 et 2025, j’ai obtenu à l’ESIEA quatre certifications Cisco essentielles : CCNA 1 & 2, Cisco CyberOps Associate et Cisco Network Security. Ces formations m'ont permis de maîtriser la configuration système des équipements Cisco et d'acquérir des réflexes solides en cybersécurité.</p>
+                    <p style="margin-top: 1rem;">Je vais continuer de me former et de développer mes compétences tout au long de ma carrière, car je suis convaincu que la maîtrise des infrastructures ne doit jamais reposer sur des acquis figés. Je compte faire de la veille informatique constante un véritable levier stratégique pour ma progression. Dans un secteur qui se réinvente sans cesse, cette démarche me permettra d'anticiper les ruptures techniques et d'être une force de proposition sur les solutions de demain. À l’avenir, j’aimerais poursuivre mon cursus en passant la certification CCNP Enterprise, qui est la suite logique de mon parcours.</p>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <a href="competences-techniques.html" class="btn-secondary">Retour aux compétences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Yannick <span>CONTI-LIGNAC</span></a>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="parcours.html">Mon parcours</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Réalisations -->
+                <div class="footer-col">
+                    <h4>Réalisations</h4>
+                    <ul class="footer-links">
+                        <li><a href="realisation-phishing.html">Campagne de Phishing</a></li>
+                        <li><a href="realisation-soc.html">Mise en place d'un SOC</a></li>
+                        <li><a href="realisation-dockstock.html">Projet DockStock</a></li>
+                        <li><a href="realisation-winview.html">Projet WinVieW</a></li>
+                        <li><a href="realisation-office365.html">Migration vers Office 365</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Compétences -->
+                <div class="footer-col">
+                    <h4>Compétences</h4>
+                    <ul class="footer-links">
+                        <li><a href="competences-techniques.html">Techniques</a></li>
+                        <li><a href="competences-humaines.html">Humaines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 - Yannick CONTI-LIGNAC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
