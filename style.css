@@ -1150,7 +1150,7 @@ footer {
 .timeline-date {
     position: absolute;
     top: -20px;
-    left: 15px; /* Aligned with axis line */
+    left: 45px; /* Décalé pour éviter de chevaucher l'axe bleu */
     font-size: 0.8rem;
     color: #3b82f6 !important;
     font-weight: 700;
