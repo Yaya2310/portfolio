@@ -1125,7 +1125,7 @@ footer {
 
 .timeline-header {
     margin-bottom: 5rem;
-    padding-left: 60px; /* Décale le titre pour libérer l'espace de la ligne */
+    padding-left: 70px !important; /* Force le décalage du titre */
 }
 
 .timeline-header h2 {
@@ -1144,7 +1144,7 @@ footer {
 /* Timeline Item (Unified Axis) */
 .timeline-item {
     position: relative;
-    padding-left: 60px;
+    padding-left: 70px !important; /* Espace minimal de 70px pour éviter la ligne */
     margin-bottom: 4rem;
 }
 
@@ -1152,7 +1152,8 @@ footer {
 .timeline-date {
     position: absolute;
     top: -20px;
-    left: 60px; /* Augmenté à 60px pour garantir aucun chevauchement */
+    left: 0;
+    margin-left: 10px; /* Aligne avec le début du texte de la carte */
     font-size: 0.82rem;
     color: #3b82f6 !important;
     font-weight: 700;
