@@ -1152,8 +1152,7 @@ footer {
 .timeline-date {
     position: absolute;
     top: -20px;
-    left: 0;
-    margin-left: 10px; /* Aligne avec le début du texte de la carte */
+    left: 30px !important; /* Proche du point (20px) mais sans chevauchement */
     font-size: 0.82rem;
     color: #3b82f6 !important;
     font-weight: 700;
