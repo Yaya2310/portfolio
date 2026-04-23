@@ -1124,19 +1124,21 @@ footer {
 }
 
 .timeline-header {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+    padding-left: 60px; /* Décale le titre pour libérer l'espace de la ligne */
 }
 
 .timeline-header h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
     font-family: var(--font-heading);
 }
 
 .timeline-header h2 i {
     color: #3b82f6;
+    font-size: 2rem;
 }
 
 /* Timeline Item (Unified Axis) */
@@ -1150,8 +1152,8 @@ footer {
 .timeline-date {
     position: absolute;
     top: -20px;
-    left: 45px; /* Décalé pour éviter de chevaucher l'axe bleu */
-    font-size: 0.8rem;
+    left: 60px; /* Augmenté à 60px pour garantir aucun chevauchement */
+    font-size: 0.82rem;
     color: #3b82f6 !important;
     font-weight: 700;
 }
