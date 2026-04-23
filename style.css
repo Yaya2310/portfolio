@@ -1099,14 +1099,15 @@ footer {
     }
 }
 
-/* Timeline Styles */
+/* Timeline Final Aesthetic (Image 3 Style) */
 .timeline {
     position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 4rem auto;
     padding: 2rem 0;
 }
 
+/* Thin Blue Axis */
 .timeline::before {
     content: '';
     position: absolute;
@@ -1114,140 +1115,169 @@ footer {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: linear-gradient(to bottom, transparent, var(--clr-primary), transparent);
+    background: #3b82f6;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.timeline::after {
+    display: none;
 }
 
 .timeline-header {
-    margin-left: 50px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .timeline-header h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-family: var(--font-heading);
 }
 
+.timeline-header h2 i {
+    color: #3b82f6;
+}
+
+/* Timeline Item (Unified Axis) */
 .timeline-item {
     position: relative;
-    margin-left: 50px;
-    margin-bottom: 3rem;
+    padding-left: 60px;
+    margin-bottom: 4rem;
 }
 
+/* Date above the dot */
+.timeline-date {
+    position: absolute;
+    top: -20px;
+    left: 15px; /* Aligned with axis line */
+    font-size: 0.8rem;
+    color: #3b82f6 !important;
+    font-weight: 700;
+}
+
+/* Glowing Blue Dot */
 .timeline-item::before {
     content: '';
     position: absolute;
-    left: -38px;
-    top: 10px;
-    width: 16px;
-    height: 16px;
+    left: 16px; /* Centered on 20px axis */
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background: #3b82f6;
     border-radius: 50%;
-    background: var(--clr-primary);
-    box-shadow: 0 0 10px var(--clr-primary);
-    z-index: 1;
-}
-
-.timeline-item.certification::before {
-    background: var(--clr-secondary);
-    box-shadow: 0 0 10px var(--clr-secondary);
-}
-
-.timeline-date {
-    font-size: 0.9rem;
-    color: var(--clr-primary);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    box-shadow: 0 0 12px #3b82f6;
+    z-index: 2;
 }
 
 .timeline-content {
-    padding: 1.5rem;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.03);
+    background: #111827 !important; /* Dark Grey as per image */
     border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
     display: flex;
     align-items: flex-start;
     gap: 1.5rem;
+    transition: var(--transition);
+    transform: none !important;
 }
 
-.timeline-logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-    object-fit: contain;
+.timeline-content:hover {
+    background: #1f2937 !important;
+    border-color: rgba(59, 130, 246, 0.3);
+    transform: translateX(5px) !important;
+}
+
+/* White Logo Container */
+.logo-container {
     background: white;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
 }
 
+.timeline-logo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Info Section */
 .timeline-info {
     flex-grow: 1;
 }
 
+.timeline-info h3 {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 0.2rem;
+}
+
+.timeline-info h4 {
+    font-size: 0.95rem;
+    color: #9ca3af; /* Muted text */
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.timeline-info h4.school-name {
+    color: #3b82f6; /* Blue for school/company as in image */
+}
+
+.timeline-description {
+    font-size: 0.9rem;
+    color: #d1d5db;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Pills / Links at Bottom */
 .project-links {
-    margin-top: 1.2rem;
     display: flex;
     gap: 0.8rem;
     flex-wrap: wrap;
 }
 
 .project-link-item {
-    font-size: 0.8rem;
-    color: var(--clr-primary);
-    background: rgba(59, 130, 246, 0.08);
-    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+    background: rgba(31, 41, 55, 0.8);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    padding: 0.4rem 1rem;
     border-radius: 20px;
-    border: 1px solid rgba(59, 130, 246, 0.15);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     gap: 0.5rem;
     text-decoration: none;
-    font-weight: 500;
-}
-
-.project-link-item i {
-    font-size: 0.9rem;
+    transition: var(--transition);
 }
 
 .project-link-item:hover {
-    background: var(--clr-primary);
+    background: #3b82f6;
     color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-    border-color: var(--clr-primary);
+    border-color: #3b82f6;
 }
 
-.timeline-content h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
-    color: var(--clr-text-main);
-}
-
-.timeline-content h4 {
-    font-size: 1rem;
-    color: var(--clr-primary);
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.timeline-content p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-    .timeline::before {
-        left: 15px;
-    }
-    .timeline-item::before {
-        left: -33px;
-    }
+/* Responsive */
+@media (max-width: 640px) {
     .timeline-content {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 1rem;
+    }
+    .logo-container {
+        margin-bottom: 1rem;
+    }
+    .project-links {
+        justify-content: center;
     }
 }
 
