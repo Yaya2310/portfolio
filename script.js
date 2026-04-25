@@ -159,4 +159,40 @@ document.addEventListener('DOMContentLoaded', () => {
     if(yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
+    // 6. Modal System
+    const modalTriggers = document.querySelectorAll('[data-modal]');
+    const modals = document.querySelectorAll('.modal');
+    const closeButtons = document.querySelectorAll('.modal-close');
+    const overlays = document.querySelectorAll('.modal-overlay');
+
+    modalTriggers.forEach(trigger => {
+        trigger.addEventListener('click', (e) => {
+            // If the user clicked on a link inside the trigger (like the logo), don't open the modal
+            if (e.target.closest('a')) return;
+            
+            const modalId = trigger.getAttribute('data-modal');
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            }
+        });
+    });
+
+    const closeModal = () => {
+        modals.forEach(modal => modal.classList.remove('active'));
+        document.body.style.overflow = ''; // Restore scrolling
+    };
+
+    closeButtons.forEach(btn => btn.addEventListener('click', closeModal));
+    overlays.forEach(overlay => overlay.addEventListener('click', (e) => {
+        if (e.target.classList.contains('modal-overlay')) {
+            closeModal();
+        }
+    }));
+
+    // Close on Escape key
+    window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+    });
 });

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion des Serveurs - Yannick CONTI-LIGNAC</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar glass scrolled">
         <div class="nav-container">
@@ -31,10 +35,12 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="competences.html" class="active">Compétences <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <a href="competences.html" class="active">Compétences <i
+                            class="fas fa-chevron-down nav-icon"></i></a>
                     <ul class="dropdown-menu glass">
                         <li class="nested-dropdown">
-                            <a href="competences-techniques.html">Techniques <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <a href="competences-techniques.html">Techniques <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
                             <ul class="submenu glass">
                                 <li><a href="comp-scripting.html">Scripting & Automatisation</a></li>
                                 <li><a href="comp-gestion-serveurs.html" class="active">Gestion des Serveurs</a></li>
@@ -44,7 +50,8 @@
                             </ul>
                         </li>
                         <li class="nested-dropdown">
-                            <a href="competences-humaines.html">Humaines <i class="fas fa-chevron-right nav-icon-right"></i></a>
+                            <a href="competences-humaines.html">Humaines <i
+                                    class="fas fa-chevron-right nav-icon-right"></i></a>
                             <ul class="submenu glass">
                                 <li><a href="comp-adaptabilite.html">Adaptabilité</a></li>
                                 <li><a href="comp-equipe.html">Travail en Équipe</a></li>
@@ -72,30 +79,81 @@
             <div class="presentation-full">
                 <!-- Introduction -->
                 <div class="content-block">
-                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma définition</h2>
-                    <p>En informatique, La gestion des serveurs est le socle du métier d’architecte. Un serveur ne doit pas seulement être "allumé", il doit être performant, sécurisé et surtout parfaitement intégré à l'écosystème de l'entreprise. Pour moi, gérer un serveur, c’est s’assurer qu’il remplit son rôle sans faille tout en étant capable de rendre des comptes sur son état de santé à tout moment.</p>
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma
+                        définition</h2>
+                    <p>En informatique, La gestion des serveurs est le socle du métier d’architecte. Un serveur ne doit
+                        pas seulement être "allumé", il doit être performant, sécurisé et surtout parfaitement intégré à
+                        l'écosystème de l'entreprise. Pour moi, gérer un serveur, c’est s’assurer qu’il remplit son rôle
+                        sans faille tout en étant capable de rendre des comptes sur son état de santé à tout moment.</p>
                 </div>
 
                 <!-- Mes éléments de preuve -->
                 <div class="content-block">
-                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes éléments de preuve</h2>
-                    <p>Lors de ma deuxième année à l'ESIEA, j'ai conçu et mis en place une infrastructure complète. Ce projet m'a permis de toucher à tout le cycle de vie d'un serveur : de l'installation du système d'exploitation à la configuration des rôles (Active Directory, DNS, DHCP). J'ai notamment réalisé la migration de serveurs Windows, en passant de versions anciennes à Windows Server 2022. L'enjeu était de conserver l'intégrité des données et des services tout en modernisant l'infrastructure pour la rendre plus robuste.</p>
-                    <p style="margin-top: 1rem;">Dans mon expérience professionnelle, j'ai franchi un palier en termes de rigueur. Administrer des serveurs en production demande une attention constante à la sécurité. J'ai pour mission d'exécuter des scripts d'automatisation et de maintenance, mais jamais à l'aveugle : chaque script est vérifié pour agir en toute sécurité sur le parc. Un point essentiel de mon travail est la gestion des logs. Je vérifie systématiquement que chaque serveur communique correctement avec le SOC (Security Operations Center). Si un serveur ne remonte pas ses journaux d'événements, il devient un angle mort pour la sécurité. Je m'assure donc que les flux sont ouverts et que les agents de collecte fonctionnent parfaitement. Cette visibilité est la clé pour détecter une intrusion ou une panne avant qu'elle ne devienne critique.</p>
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes
+                        éléments de preuve</h2>
+                    <p>Tout a commencé lors du <strong><a href="realisation-dockstock.html" class="text-gradient"
+                                style="text-decoration: underline;">Projet DockStock</a></strong>, où mon objectif était
+                        de maîtriser le cycle de vie complet d'un serveur, de l'installation de l'OS (Debian) à la mise
+                        en production. Pour garantir une infrastructure propre et reproductible, j'ai orchestré mes
+                        services via Docker-Compose. J'ai appris à gérer la persistance des données et l'isolation des
+                        réseaux conteneurisés, ce qui m'a permis de monter des environnements complets de manière
+                        structurée. C'est là que j'ai compris qu'un bon administrateur ne se contente pas d'installer un
+                        service, il construit un système cohérent, automatisé et documenté.</p>
+
+                    <p style="margin-top: 1.5rem;">Pendant mon alternance chez Crescendo, cette compétence est devenue
+                        très concrète avec la <strong><a href="realisation-soc.html" class="text-gradient"
+                                style="text-decoration: underline;">mise en place du SOC</a></strong>. J'ai eu la
+                        responsabilité d'assurer la visibilité de notre sécurité sur un parc hétérogène de 51 serveurs
+                        (Windows Server et Debian). Mon rôle a été de préparer chaque machine pour l'installation des
+                        agents de surveillance (Winlogbeat, Auditbeat). J'ai dû faire preuve d'une rigueur constante
+                        pour m'assurer que chaque agent était correctement configuré et que les certificats de sécurité
+                        étaient bien actifs sur chaque serveur. Mon travail a consisté à vérifier systématiquement la
+                        bonne remontée des flux vers le prestataire (ITrust), garantissant qu'aucun serveur ne reste un
+                        « angle mort » pour la surveillance de l'entreprise.</p>
+
+                    <p style="margin-top: 1.5rem;">Enfin, j'ai consolidé cette compétence avec le <strong><a
+                                href="realisation-winview.html" class="text-gradient"
+                                style="text-decoration: underline;">projet WinVieW</a></strong>, axé sur la migration et
+                        la mise à niveau. J'ai étudié et validé le passage de serveurs Windows Server 2012 vers 2022.
+                        L'enjeu était de moderniser l'infrastructure tout en conservant l'intégrité des rôles critiques
+                        (AD, DNS). Comme une mise à jour directe n'était pas techniquement possible, j'ai planifié une
+                        stratégie de migration intermédiaire (via Windows Server 2019). À chaque étape, j'ai sécurisé
+                        mes interventions par des snapshots et des sauvegardes VHDX. Cette approche méthodique m'a
+                        permis de valider la faisabilité du projet tout en garantissant la continuité des services et la
+                        protection des données.</p>
                 </div>
 
                 <!-- Mon autocritique -->
                 <div class="content-block">
-                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique</h2>
-                    <p>Sur la gestion des serveurs, je me considère au niveau « Confirmé ». Je maîtrise les environnements Windows et Linux et je sais comment administrer un parc de manière structurée. Je suis particulièrement attentif à la sécurité : un serveur bien géré est un serveur que l'on sait surveiller.</p>
-                    <p style="margin-top: 1rem;">Je souhaite encore progresser sur l'optimisation des performances à grande échelle. Maîtriser un serveur est une chose, mais savoir accorder finement les ressources de dizaines de machines pour qu'elles travaillent ensemble sans gaspillage est l'étape suivante que je veux franchir.</p>
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon
+                        autocritique</h2>
+                    <p>Sur la gestion des serveurs, je me considère au niveau « Confirmé ». Je maîtrise les
+                        environnements Windows et Linux et je sais comment administrer un parc de manière structurée. Je
+                        suis particulièrement attentif à la sécurité : un serveur bien géré est un serveur que l'on sait
+                        surveiller.</p>
+                    <p style="margin-top: 1rem;">Je souhaite encore progresser sur l'optimisation des performances à
+                        grande échelle. Maîtriser un serveur est une chose, mais savoir accorder finement les ressources
+                        de dizaines de machines pour qu'elles travaillent ensemble sans gaspillage est l'étape suivante
+                        que je veux franchir.</p>
                 </div>
 
                 <!-- Mon Évolution et Perspectives -->
                 <div class="future-vision">
-                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Mon Évolution et Perspectives</h2>
-                    <p>Mon projet professionnel est de devenir Architecte Systèmes et Réseaux. Dans ce rôle, je devrai concevoir des parcs de serveurs capables de supporter des charges de travail critiques.</p>
-                    <p style="margin-top: 1rem;">Je vais continuer de me former et de développer mes compétences tout au long de ma carrière, car je suis convaincu que la maîtrise des infrastructures ne doit jamais reposer sur des acquis figés. Je compte faire de la veille informatique constante un véritable levier stratégique pour ma progression.</p>
-                    <p style="margin-top: 1rem;">Dans un secteur technologique qui se réinvente sans cesse, cette démarche me permettra d'anticiper les ruptures techniques et d'être une force de proposition sur les solutions de demain. En restant à l'affût des dernières avancées, je serai capable de prévoir les évolutions nécessaires bien avant qu'elles ne deviennent des points de blocage, garantissant ainsi une longueur d'avance, une performance optimale et une sécurité maximale à l'entreprise.</p>
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket"
+                            style="margin-right: 1rem;"></i> Mon Évolution et Perspectives</h2>
+                    <p>Mon projet professionnel est de devenir Architecte Systèmes et Réseaux. Dans ce rôle, je devrai
+                        concevoir des parcs de serveurs capables de supporter des charges de travail critiques.</p>
+                    <p style="margin-top: 1rem;">Je vais continuer de me former et de développer mes compétences tout au
+                        long de ma carrière, car je suis convaincu que la maîtrise des infrastructures ne doit jamais
+                        reposer sur des acquis figés. Je compte faire de la veille informatique constante un véritable
+                        levier stratégique pour ma progression.</p>
+                    <p style="margin-top: 1rem;">Pour franchir une nouvelle étape, je prévois de suivre la formation
+                        "Ansible Basics" proposée par Red Hat. Ce choix est une
+                        réponse directe à mon souhait de progresser sur l’optimisation à grande échelle. Maîtriser cet
+                        outil d'automatisation Open Source me permettra de piloter des parcs hétérogènes (Linux et
+                        Windows) par le code, garantissant ainsi une uniformité parfaite des configurations et une
+                        réactivité immédiate face aux besoins métier. C’est, selon moi, la brique indispensable pour
+                        passer d'une gestion manuelle à une architecture industrielle performante.</p>
                 </div>
             </div>
 
@@ -154,4 +212,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

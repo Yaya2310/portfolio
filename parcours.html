@@ -92,14 +92,13 @@
                 <!-- 1. Alternance Crescendo (Aujourd'hui) -->
                 <div class="timeline-item">
                     <span class="timeline-date">Sept. 2023 - Aujourd'hui</span>
-                    <div class="timeline-content">
+                    <div class="timeline-content clickable-item" data-modal="modal-crescendo">
                         <div class="logo-container">
                             <img src="images/crescendo-logo.png" alt="Logo Crescendo" class="timeline-logo">
                         </div>
                         <div class="timeline-info">
                             <h3>Alternant Système et Réseau</h3>
                             <h4 class="school-name">Groupe Crescendo Restauration</h4>
-                            <p class="timeline-description">Travail sur une grande variété de projets techniques, infrastructures et sécurisation : notamment le déploiement opérationnel d'un SOC, la migration vers Office 365 et l'automatisation de la sensibilisation au phishing pour plus de 200 collaborateurs.</p>
                             <div class="project-links">
                                 <a href="realisation-soc.html" class="project-link-item"><i class="fas fa-user-shield"></i> SOC</a>
                                 <a href="realisation-phishing.html" class="project-link-item"><i class="fas fa-envelope-open-text"></i> Phishing</a>
@@ -112,9 +111,9 @@
                 <!-- 2. ESIEA Expert (Aujourd'hui) -->
                 <div class="timeline-item">
                     <span class="timeline-date">Juillet 2023 - Aujourd'hui</span>
-                    <div class="timeline-content">
+                    <div class="timeline-content clickable-item" data-modal="modal-master">
                         <div class="logo-container">
-                            <a href="https://www.esiea.fr/?utm_campaign=Brand&utm_source=bingads&utm_medium=paid&msclkid=76950eb28ed91777c919675b5cfefb35" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.esiea.fr/" target="_blank" rel="noopener noreferrer">
                                 <img src="images/esiea-logo.png" alt="Logo ESIEA" class="timeline-logo">
                             </a>
                         </div>
@@ -153,7 +152,21 @@
                     </div>
                 </div>
 
-                <!-- 5. CCNA SRWE (Oct. 2024) -->
+                <!-- 5. Microsoft Security (Juil. 2025) -->
+                <div class="timeline-item">
+                    <span class="timeline-date">Juillet 2025</span>
+                    <div class="timeline-content">
+                        <div class="logo-container">
+                            <i class="fas fa-briefcase" style="font-size: 2rem; color: #3b82f6;"></i>
+                        </div>
+                        <div class="timeline-info">
+                            <h3>Microsoft Security: Sécurité Windows</h3>
+                            <h4 class="school-name">Mandarine Academy</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. CCNA SRWE (Oct. 2024) -->
                 <div class="timeline-item">
                     <span class="timeline-date">Oct. 2024</span>
                     <div class="timeline-content">
@@ -167,12 +180,12 @@
                     </div>
                 </div>
 
-                <!-- 6. RNCP 37680 (2024) -->
+                <!-- 7. RNCP 37680 (2024) -->
                 <div class="timeline-item">
                     <span class="timeline-date">2024</span>
-                    <div class="timeline-content">
+                    <div class="timeline-content clickable-item" data-modal="modal-bachelor">
                         <div class="logo-container">
-                            <a href="https://www.esiea.fr/?utm_campaign=Brand&utm_source=bingads&utm_medium=paid&msclkid=76950eb28ed91777c919675b5cfefb35" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.esiea.fr/" target="_blank" rel="noopener noreferrer">
                                 <img src="images/esiea-logo.png" alt="Logo ESIEA" class="timeline-logo">
                             </a>
                         </div>
@@ -183,7 +196,7 @@
                     </div>
                 </div>
 
-                <!-- 7. CCNA ITN (Janv. 2023) -->
+                <!-- 8. CCNA ITN (Janv. 2023) -->
                 <div class="timeline-item">
                     <span class="timeline-date">Janv. 2023</span>
                     <div class="timeline-content">
@@ -197,7 +210,7 @@
                     </div>
                 </div>
 
-                <!-- 8. Groupe AEN (2021 - 2023) -->
+                <!-- 9. Groupe AEN (2021 - 2023) -->
                 <div class="timeline-item">
                     <span class="timeline-date">2021 - Juin 2023</span>
                     <div class="timeline-content">
@@ -266,6 +279,86 @@
         </div>
     </footer>
     <script src="script.js"></script>
+
+    <!-- Modal Bachelor -->
+    <div id="modal-bachelor" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container glass">
+            <div class="modal-header">
+                <h3>Bachelor <span class="text-gradient">AIS</span></h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="content-block">
+                    <h4><i class="fas fa-university" style="margin-right: 1rem; color: var(--clr-primary);"></i> Présentation de l'établissement</h4>
+                    <p>Après l’obtention de mon Baccalauréat Général, j’ai rejoint le Groupe AEN sur le campus d’Agen pour entamer mon cursus supérieur. Cet établissement propose un large éventail de formations allant du Bachelor au cycle d’ingénieur, toutes spécialisées dans les métiers du numérique. Au cours de ma troisième année, le Groupe AEN a rejoint le <a href="https://www.esiea.fr/" target="_blank" rel="noopener noreferrer" class="text-gradient" style="text-decoration: underline; font-weight: 600;">Groupe ESIEA</a>, une école d'ingénieurs de renom, ce qui a permis d'enrichir encore davantage mon parcours académique.</p>
+                </div>
+                <div class="content-block" style="margin-top: 2rem;">
+                    <h4><i class="fas fa-lightbulb" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma vision de la pédagogie</h4>
+                    <p>J’ai particulièrement adhéré à la pédagogie de l'ESIEA, qui place le mode projet au cœur de l'apprentissage. Au-delà de l'aspect technique, cette méthode accorde une place importante à la formation humaine. En travaillant sur des projets concrets avec de véritables clients, j'ai été confronté aux exigences du monde professionnel très tôt. Cette approche m'a permis de développer une posture d'expert et une aisance relationnelle qui ont été des atouts décisifs lors de ma recherche d'alternance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Master -->
+    <div id="modal-master" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container glass">
+            <div class="modal-header">
+                <h3><span class="text-gradient">Mastère Expert cybersécurité et infrastructures des systèmes d'information</span></h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="content-block">
+                    <h4><i class="fas fa-graduation-cap" style="margin-right: 1rem; color: var(--clr-primary);"></i> Présentation du cursus</h4>
+                    <p>À la suite de mon Bachelor AIS, j’ai choisi de poursuivre mon parcours au sein du <a href="https://www.esiea.fr/" target="_blank" rel="noopener noreferrer" class="text-gradient" style="text-decoration: underline; font-weight: 600;">Groupe ESIEA</a> pour valider un Mastère d'Expert en cybersécurité et infrastructures des systèmes d’information. Ce cycle de deux ans a pour objectif de transformer nos bases techniques en une expertise stratégique, nous préparant à concevoir et piloter des infrastructures complexes et sécurisées.</p>
+                </div>
+                <div class="content-block" style="margin-top: 2rem;">
+                    <h4><i class="fas fa-chalkboard-teacher" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma vision de la pédagogie</h4>
+                    <p>J’ai particulièrement apprécié l'organisation de ce Mastère, qui privilégie le distanciel et l'intervention d’experts du secteur. Cette pédagogie offre une grande autonomie et une immersion directe dans les réalités du métier. Au-delà de la technique, la formation intègre des dimensions essentielles comme le droit du numérique, la gestion de projet avancée et la préparation au TOEIC. Cette ouverture sur des compétences transverses est, selon moi, un véritable atout pour s'adapter aux exigences globales des entreprises d'aujourd'hui.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Crescendo -->
+    <div id="modal-crescendo" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container glass">
+            <div class="modal-header">
+                <h3><span class="text-gradient">Crescendo Restauration :</span> Alternance Système et Réseau</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="content-block">
+                    <h4><i class="fas fa-building" style="margin-right: 1rem; color: var(--clr-primary);"></i> Vision de l'entreprise</h4>
+                    <p>Crescendo Restauration est un groupe dynamique gérant trois enseignes distinctes : Crescendo, Jules & John et Les Comptoirs d'Alice. Avec un parc d'environ 20 sites, l'informatique est le moteur de l'activité. La disponibilité permanente des serveurs et la performance du réseau sont des enjeux critiques pour assurer le service en salle, la logistique et la sécurité des données sur l'ensemble des points de vente.</p>
+                </div>
+                <div class="content-block" style="margin-top: 2rem;">
+                    <h4><i class="fas fa-briefcase" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon positionnement et responsabilités</h4>
+                    <p>En tant qu'Alternant Système et Réseau, j'évolue au sein d'une structure où la polyvalence est de mise. Ma mission est de garantir le maintien en condition opérationnelle des infrastructures tout en étant force de proposition sur leur modernisation. J'interviens sur des projets stratégiques, notamment en cybersécurité et en transition Cloud, avec la responsabilité de livrer des solutions robustes et sécurisées pour les collaborateurs du groupe.</p>
+                </div>
+                <div class="content-block" style="margin-top: 2rem;">
+                    <h4><i class="fas fa-tasks" style="margin-right: 1rem; color: var(--clr-primary);"></i> Travail effectué</h4>
+                    <ul class="modal-list" style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
+                            <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 5px; color: var(--clr-primary);"></i>
+                            <a href="realisation-soc.html" class="text-gradient" style="text-decoration: underline;"><strong>Mise en place du SOC :</strong></a> Déploiement opérationnel d'agents de surveillance sur 51 serveurs pour centraliser la visibilité des menaces. 
+                        </li>
+                        <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
+                            <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 5px; color: var(--clr-primary);"></i>
+                            <a href="realisation-office365.html" class="text-gradient" style="text-decoration: underline;"><strong>Migration Office 365 :</strong></a> Gestion de la transition vers le Cloud pour plus de 200 utilisateurs. 
+                        </li>
+                        <li style="margin-bottom: 1rem; padding-left: 1.5rem; position: relative;">
+                            <i class="fas fa-check-circle" style="position: absolute; left: 0; top: 5px; color: var(--clr-primary);"></i>
+                            <a href="realisation-phishing.html" class="text-gradient" style="text-decoration: underline;"><strong>Sensibilisation au Phishing :</strong></a> Création de campagnes automatisées pour renforcer la vigilance des équipes. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
