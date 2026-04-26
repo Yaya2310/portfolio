@@ -72,40 +72,75 @@
             <div class="presentation-full">
                 <!-- Introduction -->
                 <div class="content-block">
-                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Introduction</h2>
+                    <h2><i class="fas fa-info-circle" style="margin-right: 1rem; color: var(--clr-primary);"></i> Ma
+                        définition</h2>
                     <p>En informatique, la migration, c'est un peu comme un déménagement : c'est le moment où l'on doit transférer tout ce qui est vital pour l'entreprise sans rien casser en route. Pour moi, une migration réussie, c'est quand les utilisateurs ne se rendent compte de rien, alors que l'infrastructure derrière a totalement changé. C'est un exercice qui demande une préparation millimétrée, une grosse capacité d'analyse et surtout une gestion du risque constante pour éviter toute interruption de service.</p>
                 </div>
 
                 <!-- Mes preuves -->
                 <div class="content-block">
-                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes preuves :</h2>
-                    <p>Mon premier gros défi a été la migration de serveurs Windows lors de mes projets à l'ESIEA. J'ai dû récupérer des serveurs qui tournaient sur de vieilles versions (Windows Server 2008 ou 2012) pour les faire évoluer jusqu'à Windows Server 2022. L'enjeu n'était pas juste d'installer un nouvel OS, mais de conserver toute la configuration et de s'assurer que les services (Active Directory, DNS, rôles serveurs) restaient actifs et fonctionnels après le passage aux nouvelles versions. C'est là que j'ai appris l'importance des tests de compatibilité avant de lancer le processus.</p>
-                    <p style="margin-top: 1rem;">Puis, au sein de Crescendo Restauration, j'ai piloté un projet de grande envergure : la migration du parc Office. Il a fallu faire passer près de 100 restaurants d'une version locale (Office 2016) vers la suite Microsoft 365. Avec environ deux postes par site (un fixe et un portable), cela représentait 200 machines à basculer sans bloquer le travail quotidien des restaurants. J'ai dû organiser mon planning, vérifier la connectivité de chaque site et m'assurer que les données étaient bien synchronisées. C'est ce genre de projet qui m'a appris à gérer le volume et à garder la tête froide sur des déploiements massifs.</p>
+                    <h2><i class="fas fa-search" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mes éléments de preuve</h2>
+                    <p>Tout a commencé avec le <strong><a href="realisation-winview.html" class="text-gradient"
+                                style="text-decoration: underline;">projet WinVieW</a></strong>, où je devais moderniser
+                        une infrastructure virtualisée sans pouvoir passer directement de Windows Server 2012 à 2022 à cause
+                        de restrictions techniques. Pour contourner ce blocage, j'ai planifié une migration intermédiaire
+                        via la version 2019. J’ai sécurisé chaque étape du processus en créant des snapshots et des
+                        sauvegardes VHDX, ce qui m'a permis de transférer les rôles critiques comme l'AD et le DNS vers
+                        le nouvel OS tout en conservant l'intégralité des configurations. Le résultat a été une
+                        infrastructure totalement mise à jour et sécurisée, validant la faisabilité technique de la
+                        méthode avant tout passage en production.</p>
+
+                    <p style="margin-top: 1.5rem;">Pendant mon alternance chez Crescendo, cette compétence est devenue
+                        très concrète avec la <strong><a href="realisation-office365.html" class="text-gradient"
+                                style="text-decoration: underline;">migration vers Microsoft 365</a></strong> de 100
+                        restaurants. Pour ne pas interrompre l'activité des sites, j'ai utilisé une stratégie hybride
+                        via Exchange Admin Center afin de synchroniser les boîtes mails en arrière-plan pendant que les
+                        gérants continuaient de travailler. J’ai dû gérer la mise à jour de 200 postes vers Windows 10
+                        (22H2) et intervenir directement sur les paramètres de confidentialité d'Excel pour débloquer
+                        les macros de commandes fournisseurs et autres fichiers internes qui étaient bloqués par les
+                        nouvelles mesures de sécurité. Cette approche m'a permis de boucler le déploiement sur l'ensemble
+                        du parc en trois mois, tout en garantissant que chaque restaurant reste opérationnel et capable
+                        de passer ses commandes sans aucune interruption.</p>
                 </div>
 
                 <!-- Mon autocritique -->
                 <div class="content-block">
-                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon autocritique :</h2>
+                    <h2><i class="fas fa-chart-line" style="margin-right: 1rem; color: var(--clr-primary);"></i> Mon
+                        autocritique</h2>
                     <p>Aujourd'hui, je me sens à l'aise sur les problématiques de migration, avec un niveau que je qualifierais de « Confirmé ». Je sais comment préparer un plan de migration, identifier les points de blocage potentiels et exécuter le transfert tout en assurant la continuité de service.</p>
                     <p style="margin-top: 1rem;">Je reste toutefois conscient que chaque migration est unique. Sur des architectures très spécifiques ou du matériel très ancien, je prends toujours le temps de faire une phase de tests approfondie. Mon but n'est pas d'aller vite, mais d'aller loin sans incident. J'ai beaucoup appris de mes premières erreurs à l'école, et aujourd'hui, j'aborde ces phases de transition avec une méthodologie beaucoup plus solide et une vraie sérénité, car je sais qu'une bonne préparation fait 90% du travail sur ce sujet.</p>
                 </div>
 
-                <!-- Ce que je prévois pour la suite -->
+                <!-- Mon Évolution et Perspectives -->
                 <div class="future-vision">
-                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket" style="margin-right: 1rem;"></i> Mon Évolution et Perspectives</h2>
-                    <p>Mon projet professionnel est de devenir Architecte Systèmes et Réseaux, avec l'objectif de concevoir, dans les prochaines années, des architectures complexes et interconnectées pour les entreprises. Je mets un point d'honneur à ce que mes conceptions soient robustes et parfaitement optimisées pour une mise en production fiable et sécurisée. Pour y parvenir, je compte :</p>
+                    <h2 style="color: var(--clr-primary); margin-bottom: 1.5rem;"><i class="fas fa-rocket"
+                            style="margin-right: 1rem;"></i> Mon Évolution et Perspectives</h2>
+                    <p>Mon projet professionnel est de devenir Architecte Systèmes et Réseaux, avec l'objectif de
+                        concevoir, dans les prochaines années, des architectures complexes et interconnectées pour les
+                        entreprises. Je mets un point d'honneur à ce que mes conceptions soient robustes et parfaitement
+                        optimisées pour une mise en production fiable et sécurisée. Pour y parvenir, je compte :</p>
                     <ul style="list-style: none; margin-top: 1rem;">
                         <li style="margin-bottom: 0.8rem; display: flex; align-items: flex-start; gap: 1rem;">
                             <i class="fas fa-check-circle" style="color: var(--clr-primary); margin-top: 0.3rem;"></i>
-                            <span>Je souhaite monter en compétence sur la migration de services vers des infrastructures hybrides, en faisant le pont entre les serveurs physiques et les solutions managées.</span>
+                            <span><strong>Maîtriser la migration vers les infrastructures hybrides :</strong> Je souhaite
+                                monter en compétence sur la transition de services vers le Cloud, en faisant le pont
+                                entre les serveurs physiques et les solutions managées. À ce titre, je compte suivre la
+                                formation "Amazon RDS pour Oracle : Migrer vos données vers le cloud" par AWS, afin de
+                                maîtriser les enjeux critiques du transfert de bases de données structurées vers des
+                                environnements managés.</span>
                         </li>
                         <li style="margin-bottom: 0.8rem; display: flex; align-items: flex-start; gap: 1rem;">
                             <i class="fas fa-check-circle" style="color: var(--clr-primary); margin-top: 0.3rem;"></i>
-                            <span>Mon objectif est de maîtriser les outils de migration automatisés pour réduire encore plus les temps de coupure lors des phases de transition critique.</span>
+                            <span><strong>Automatiser les transitions critiques :</strong> Mon objectif est de maîtriser
+                                les outils de migration automatisés pour réduire au maximum les temps de coupure lors
+                                des phases de bascule, garantissant ainsi une efficacité opérationnelle optimale.</span>
                         </li>
                         <li style="display: flex; align-items: flex-start; gap: 1rem;">
                             <i class="fas fa-check-circle" style="color: var(--clr-primary); margin-top: 0.3rem;"></i>
-                            <span>Ainsi, je compte aussi approfondir mes connaissances sur les technologies de clustering et de haute disponibilité. L'objectif est de pouvoir concevoir des plans de bascule qui éliminent totalement le risque d'interruption de service lors des phases critiques de migration.</span>
+                            <span><strong>Garantir la haute disponibilité :</strong> Je compte approfondir mes
+                                connaissances sur les technologies de clustering et de haute disponibilité. L'objectif
+                                est de pouvoir concevoir des plans de bascule qui éliminent totalement le risque
+                                d'interruption de service lors des phases critiques de migration.</span>
                         </li>
                     </ul>
                 </div>
